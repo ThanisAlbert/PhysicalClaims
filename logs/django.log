@@ -1500,3 +1500,31 @@ INFO 2024-06-24 22:30:25,897 basehttp "GET /static/new/js/custom.js HTTP/1.1" 20
 INFO 2024-06-24 22:30:26,721 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
 INFO 2024-06-24 22:30:26,726 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 74328
 INFO 2024-06-24 22:30:26,728 basehttp "GET /static/new/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+INFO 2024-06-24 22:48:49,344 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 22:49:00,978 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-24 22:49:01,318 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 200 50998
+INFO 2024-06-24 22:49:08,662 views ganesan.d@redingtongroup.com loggedin 2024-06-24 22:49:08.662827
+INFO 2024-06-24 22:49:08,787 basehttp "POST /index.html HTTP/1.1" 200 31310
+INFO 2024-06-24 22:49:08,817 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 22:49:21,108 views Tracker object (15) 2024-06-24 22:49:21.108510
+INFO 2024-06-24 22:49:21,109 basehttp "POST /physicalclaimformsubmit.html HTTP/1.1" 200 19
+INFO 2024-06-24 22:49:28,174 basehttp "GET /admin/ HTTP/1.1" 200 11163
+INFO 2024-06-24 22:49:30,407 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 20899
+INFO 2024-06-24 22:49:30,461 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 22:49:49,383 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 7925
+INFO 2024-06-24 22:49:49,436 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 22:49:49,461 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 8944
+INFO 2024-06-24 22:49:49,480 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11297
+INFO 2024-06-24 22:49:53,524 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 5760
+INFO 2024-06-24 22:50:57,537 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 20899
+INFO 2024-06-24 22:50:57,560 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 22:50:59,841 basehttp "GET /admin/GanesanTeam/tracker/import/ HTTP/1.1" 200 9081
+INFO 2024-06-24 22:50:59,871 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 22:50:59,884 basehttp "GET /static/import_export/import.css HTTP/1.1" 304 0
+INFO 2024-06-24 22:50:59,900 basehttp "GET /static/import_export/guess_format.js HTTP/1.1" 304 0
+INFO 2024-06-24 22:51:11,190 basehttp "POST /admin/GanesanTeam/tracker/import/ HTTP/1.1" 200 15970
+INFO 2024-06-24 22:51:11,209 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 22:51:14,153 basehttp "POST /admin/GanesanTeam/tracker/process_import/ HTTP/1.1" 302 0
+INFO 2024-06-24 22:51:14,172 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 21131
+INFO 2024-06-24 22:51:14,189 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 22:51:14,234 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
