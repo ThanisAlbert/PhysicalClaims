@@ -1,0 +1,753 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link href="{% static 'img/logo/Redserv.png' %}" rel="icon">
+  <title>Physical Claims</title>
+
+
+  <link href="{% static 'vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet" type="text/css">
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+   <link href="{% static 'vendor/select2/dist/css/select2.min.css' %}" rel="stylesheet" type="text/css">
+  <link href="{% static 'css/ruang-admin.min.css' %}" rel="stylesheet">
+
+
+   <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="{% static 'new/css/bootstrap.css' %}" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="{% static 'new/css/font-awesome.min.css' %}"  rel="stylesheet" />
+
+  <!-- nice select -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
+
+  <!-- datepicker -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css">
+  <!-- Custom styles for this template -->
+
+
+  <link href="{% static 'new/css/style.css' %}" rel="stylesheet" />
+  <!-- responsive style -->
+
+
+  <link href="{% static 'new/css/responsive.css' %}" rel="stylesheet" />
+
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+
+
+  <style>
+
+.select2-container .select2-selection--single{
+    height:35px !important;
+    font-size:12px;
+}
+.select2-container--default .select2-selection--single{
+     border: 1px solid #00c6a9 !important;
+     border-radius: 0px !important;
+}
+
+     .form-control{
+      height:10px;
+      }
+
+      .nice-select {
+      font-size: 12px;
+      }
+
+      .separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 0.5px solid #dcdcdc;
+}
+
+.separator:not(:empty)::before {
+  margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: .25em;
+}
+
+  </style>
+
+
+
+
+</head>
+
+<body id="page-top">
+  <div id="wrapper">
+    <!-- Sidebar -->
+    <ul class="navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
+      <a style="background-color: #2EA835;"  class="sidebar-brand d-flex align-items-center justify-content-center" href="{% url 'physicalclaims:home' %}">
+        <div class="sidebar-brand-icon">
+          <img src="{% static 'img/logo/Redserv.png' %}">
+        </div>
+        <div class="sidebar-brand-text mx-3"></div>
+      </a>
+      <hr class="sidebar-divider my-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="{% url 'physicalclaims:home' %}">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>PhysicalClaims</span></a>
+      </li>
+      <hr class="sidebar-divider">
+      <div class="sidebar-heading">
+        Features
+      </div>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBootstrap"
+          aria-expanded="true" aria-controls="collapseBootstrap">
+          <i class="far fa-fw fa-window-maximize"></i>
+          <span>Home</span>
+        </a>
+        <div id="collapseBootstrap" class="collapse" aria-labelledby="headingBootstrap" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Home</h6>
+            <!--
+            <a class="collapse-item" href="alerts.html">Alerts</a>
+            <a class="collapse-item" href="buttons.html">Buttons</a>
+            -->
+
+          </div>
+        </div>
+      </li>
+
+      <hr class="sidebar-divider">
+
+      <div class="version" id="version-ruangadmin"></div>
+    </ul>
+    <!-- Sidebar -->
+    <div id="content-wrapper" class="d-flex flex-column">
+      <div id="content">
+        <!-- TopBar -->
+        <nav style="background-color: #2EA835;" class="navbar navbar-expand navbar-light bg-navbar topbar mb-4 static-top">
+          <button id="sidebarToggleTop" class="btn btn-link rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-search fa-fw"></i>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                aria-labelledby="searchDropdown">
+                <form class="navbar-search">
+                  <div class="input-group">
+                    <input type="text" class="form-control bg-light border-1 small" placeholder="What do you want to look for?"
+                      aria-label="Search" aria-describedby="basic-addon2" style="border-color: #3f51b5;">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button">
+                        <i class="fas fa-search fa-sm"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li>
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-bell fa-fw"></i>
+                <span class="badge badge-danger badge-counter">1+</span>
+              </a>
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                aria-labelledby="alertsDropdown">
+                <h6 class="dropdown-header">
+                  Alerts Center
+                </h6>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-primary">
+                      <i class="fas fa-file-alt text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">December 12, 2019</div>
+                    <span class="font-weight-bold">A new monthly report is ready to download!</span>
+                  </div>
+                </a>
+
+                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+              </div>
+            </li>
+
+            <div class="topbar-divider d-none d-sm-block"></div>
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <img class="img-profile rounded-circle" src="{% static 'img/boy.png' %}" style="max-width: 60px">
+                <span class="ml-2 d-none d-lg-inline text-white small">Hi {{username}}</span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Profile
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Settings
+                </a>
+
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="javascript:void(0);" data-toggle="modal" data-target="#logoutModal">
+                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Logout
+                </a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <!-- Topbar -->
+
+
+        <section style="color:black;padding-top:0px;" class="book_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <form  method="post" action ="{% url 'physicalclaims:claimformsubmit' %}">
+ {% csrf_token %}
+
+              <div id="sectionA">
+
+     <div style="font-size:12px;" class="separator">Section A </div><br>
+
+            <div class="form-row" >
+
+             <div class="form-group col-lg-3">
+    <label style="font-size:12px;" >Claim Type</label>
+    <select name="claimtype" id="claimtype" style="border: 1px solid #FF0000;height:100px" class="form-control select2">
+	    {% for claimtype in claimtypes %}
+            <option value="{{ claimtype }}">{{ claimtype }}</option>
+        {% endfor %}
+    </select>
+
+
+    </div>
+
+              <div class="form-group col-lg-3">
+                <label style="font-size:12px;"  for="claimref">Claim ref# </label>
+                <input style="font-size:12px;"  type="text" class="form-control" name="claimref" id="claimref" placeholder="">
+              </div>
+
+               <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="requestfrom">Request From</label>
+
+                <select name="requestfrom" id="requestfrom" style="border: 1px solid #FF0000;height:100px" class="form-control select2">
+	    {% for requestfrom in requestfroms %}
+            <option value="{{ requestfrom }}">{{ requestfrom }}</option>
+        {% endfor %}
+    </select>
+
+
+              </div>
+
+              <div class="form-group col-lg-3">
+                <label style="font-size:12px;"  for="requestdate">Req Date</label>
+                <div class="input-group date"  data-date-format="dd-mm-yyyy">
+                  <input type="text" style="color:black;font-size:12px;" data-date-format="dd-mm-yyyy" id="requestdate" name="requestdate" class="form-control" readonly>
+                  <span class="input-group-addon date_icon">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+
+
+            </div>
+
+            <div class="form-row ">
+
+              <div class="form-group col-lg-3">
+                <label style="font-size:12px;"  for="currentdate">Current Date</label>
+                <div class="input-group date" >
+                  <input type="text" id="currentdate" name="currentdate" data-date-format="dd-mm-yyyy" style="color:black;font-size:13px;" class="form-control" readonly>
+                  <span class="input-group-addon date_icon">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+
+                <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="category">Region</label>
+
+
+                <select name="region" id="region" style="border: 1px solid #FF0000;height:100px" class="form-control select2">
+	            {% for region in regions %}
+                <option value="{{ region }}">{{ region }}</option>
+                {% endfor %}
+                </select>
+
+
+              </div>
+
+               <div class="form-group col-lg-3">
+                <label style="font-size:12px;">Category</label>
+                <select name="category" id="category" style="border: 1px solid #FF0000;height:100px" class="form-control select2">
+	            {% for category in categories %}
+                <option value="{{ category }}">{{ category }}</option>
+                {% endfor %}
+                </select>
+              </div>
+
+              <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="subcategory">Sub Category</label>
+                <select name="subcategory" id="subcategory" style="border: 1px solid #FF0000;height:100px" class="form-control select2">
+	            {% for subcategory in subcategories %}
+                <option value="{{ subcategory }}">{{ subcategory }}</option>
+                {% endfor %}
+                </select>
+              </div>
+
+            </div>
+
+
+            <div class="form-row ">
+
+                <div class="form-group col-lg-3">
+                <label style="font-size:12px;"  for="claimeddate">Claimed Date</label>
+                <div class="input-group date">
+                  <input type="text"  name="claimeddate" id="claimeddate" data-date-format="dd-mm-yyyy" style="color:black;font-size:13px;"  class="form-control" readonly>
+                  <span class="input-group-addon date_icon">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+
+               <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="customer">Customer</label>
+                <input type="text" style="color:black;font-size:13px;"  class="form-control" name="customer" id="customer" placeholder="">
+              </div>
+
+               <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="purchaseorder">Purchase Order </label>
+                <input type="text" style="color:black;font-size:13px;"  class="form-control" id="purchaseorder" name="purchaseorder"  placeholder="">
+              </div>
+
+               <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="cbn">CBN </label>
+                <input type="text" style="color:black;font-size:13px;"  class="form-control" id="cbn" name="cbn" placeholder="">
+              </div>
+
+            </div>
+
+
+            <div class="form-row ">
+                <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="hporder">HP Order</label>
+                <input type="text" style="color:black;font-size:13px;"  class="form-control" id="hporder" name="hporder" placeholder="">
+              </div>
+
+
+
+               <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="recievedpartno">Received Part#</label>
+                <input type="text" style="color:black;font-size:13px;"  class="form-control" id="recievedpartno" name="recievedpartno" placeholder="">
+              </div>
+
+               <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="claimedpartno">Claimed Part#</label>
+                <input type="text" style="color:black;font-size:13px;"  class="form-control"  name="claimedpartno" placeholder="">
+              </div>
+
+               <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="cbn">Qty</label>
+                <input type="text" style="color:black;font-size:13px;"  class="form-control" id="qty" name="qty" placeholder="">
+              </div>
+
+            </div>
+
+
+           <button type="button" style="border-width: 1px;" onclick="nextSection('sectionA', 'sectionB')">Next</button>
+
+     </div>
+
+     <br>
+
+     <div id="sectionB" style="display: none;">
+
+     <div style="font-size:12px;" class="separator">Section B
+     </div><br>
+
+
+            <div class="form-row ">
+
+                <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="packid">Pack ID</label>
+                <input type="text" style="color:black;font-size:13px;" class="form-control" id="packid" name="packid" placeholder="">
+              </div>
+
+               <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="boxid">Box ID</label>
+                <input type="text" style="color:black;font-size:13px;" class="form-control" id="boxid" name="boxid" placeholder="">
+              </div>
+
+               <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="serialno">Serial no</label>
+                <input type="text" style="color:black;font-size:13px;" class="form-control" id="serialno" name="serialno" placeholder="">
+              </div>
+
+               <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="cbn">Unit Price</label>
+                <input type="text" style="color:black;font-size:13px;" class="form-control" id="unitprice" name="unitprice" placeholder="">
+              </div>
+
+            </div>
+
+
+            <div class="form-row ">
+
+                <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="totalamount">Total Amount $</label>
+                <input type="text" style="color:black;font-size:13px;" class="form-control" id="totalamount" name="totalamount" placeholder="">
+              </div>
+
+               <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="hpinvno">HP Inv No</label>
+                <input type="text" style="color:black;font-size:13px;" class="form-control" id="hpinvno"  name="hpinvno"  placeholder="">
+              </div>
+
+               <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="redingtoninvoice">Redington Invoice</label>
+                <input type="text" style="color:black;font-size:13px;" class="form-control" id="redingtoninvoice" name="redingtoninvoice" placeholder="">
+              </div>
+
+               <div class="form-group col-lg-3">
+
+                <label style="font-size:12px;"  for="rpodate">ECI Date</label>
+                <div class="input-group date"  data-date-format="dd-mm-yyyy">
+                  <input style="color:black;font-size:13px;"  id="ecidate"  name="ecidate" type="text" style="color:black;" class="form-control" data-date-format="dd-mm-yyyy" readonly>
+                  <span class="input-group-addon date_icon">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                  </span>
+                </div>
+
+              </div>
+
+            </div>
+
+
+             <div class="form-row ">
+
+               <div class="form-group col-lg-3">
+                 <label style="font-size:12px;"  for="calliddate">Call ID Date</label>
+                <div class="input-group date" >
+                  <input style="color:black;font-size:13px;" id="calliddate" name="calliddate" data-date-format="dd-mm-yyyy" type="text" style="color:black;" class="form-control" readonly>
+                  <span class="input-group-addon date_icon">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                  </span>
+                </div>
+               </div>
+
+               <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="rrno">RR#</label>
+                <input style="color:black;font-size:13px;" type="text" class="form-control" id="rrno"  name="rrno" placeholder="">
+              </div>
+
+               <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="customercm">Customer CM/ Call ID</label>
+                <input style="color:black;font-size:13px;" type="text" class="form-control" id="customercm" name="customercm" placeholder="">
+              </div>
+
+               <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="dhlcode">DHL AWB / FORWARDER CODE</label>
+                <input style="color:black;font-size:13px;" type="text" class="form-control" id="dhlcode"  name="dhlcode" placeholder="">
+              </div>
+
+            </div>
+
+              <button type="button" style="border-width: 1px;" onclick="prevSection('sectionB', 'sectionA')">Previous</button>
+        <button type="button" style="border-width: 1px;" onclick="nextSection('sectionB', 'sectionC')">Next</button>
+
+     </div>
+
+              <br>
+     <div id="sectionC" style="display: none;">
+
+     <div style="font-size:12px;" class="separator">Section C</div>
+              <br>
+
+
+           <div class="form-row ">
+
+                <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="rponum">RPO#</label>
+                <input style="color:black;font-size:13px;"   type="text" class="form-control" id="rponum" name="rponum" placeholder="">
+              </div>
+
+
+             <div class="form-group col-lg-3">
+
+
+                <label style="font-size:12px;"  for="rpodate">RPO Date</label>
+                <div class="input-group date"  >
+                  <input style="color:black;font-size:13px;" data-date-format="dd-mm-yyyy" id="rpodate" name="rpodate"  type="text" style="color:black;" class="form-control" readonly>
+                  <span class="input-group-addon date_icon">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                  </span>
+                </div>
+
+
+              </div>
+
+
+              <div class="form-group col-lg-3">
+                <label style="font-size:12px;"  for="grndate">GRN Date</label>
+                <div class="input-group date" >
+                  <input type="text" style="color:black;font-size:13px;"  data-date-format="dd-mm-yyyy" id="grndate" name="grndate"  class="form-control" readonly>
+                  <span class="input-group-addon date_icon">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+
+
+               <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="hpcnno">HP CN No</label>
+                <input type="text" style="color:black;font-size:13px;"   class="form-control" id="hpcnno"  name="hpcnno" placeholder="">
+              </div>
+
+            </div>
+
+
+
+           <div class="form-row ">
+
+              <div class="form-group col-lg-3">
+
+                <div class="row">
+                <label style="font-size:12px;margin-left:15px" for="subcategory">Claims Staus</label>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                <select  name="claimstatus" id="claimstatus"   name="claimstatus" style="border: 1px solid #FF0000;height:100px;width:220px; margin-left:50px;" class="form-control select2">
+	            {% for claimsstatus in claimsstatuss %}
+                <option value="{{ claimsstatus }}">{{ claimsstatus }}</option>
+                {% endfor %}
+                </select>
+                        </div>
+
+
+
+                </div>
+
+              </div>
+
+               <div class="form-group col-lg-3">
+
+                    <div class="row">
+                    <label style="font-size:12px;margin-left:15px" for="subcategory">Additional Claims Status</label>
+                    </div>
+
+                     <div class="row">
+
+                      <div class="col-md-12">
+                    <select name="additionalclaims" id="additionalclaims"  name="additionalclaims" style="border: 1px solid #FF0000;height:100px;width:220px; margin-left:50px;" class="form-control select2">
+                    {% for additionalclaimsstatus in additionalclaimsstatuss %}
+                    <option value="{{ additionalclaimsstatus }}">{{ additionalclaimsstatus }}</option>
+                    {% endfor %}
+                    </select>
+                      </div>
+
+                      </div>
+
+               </div>
+
+
+               <div class="form-group col-lg-3">
+
+                <div class="row">
+                    <label style="font-size:12px;margin-left:15px" for="Originator">Originator</label>
+                </div>
+
+                 <div class="row">
+
+                      <div class="col-md-12">
+                 <select name="Originator" id="Originator" name="Originator" style="border: 1px solid #FF0000;height:100px;width:220px; margin-left:50px;" class="form-control select2">
+	            {% for originator in originators %}
+                <option value="{{ originator }}">{{ originator }}</option>
+                {% endfor %}
+                </select>
+
+                      </div>
+                 </div>
+
+               </div>
+
+               <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="aging">Remarks</label>
+                <input type="text" style="font-size:13px;" class="form-control" id="remarks" name="remarks" placeholder="">
+               </div>
+
+
+           </div>
+
+
+
+           <div class="form-row ">
+
+              <div class="form-group col-lg-3">
+                <label style="font-size:12px;"  for="hpcndate">HP CN Date</label>
+                <div class="input-group date"  >
+                  <input type="text" style="color:black;font-size:13px;" data-date-format="dd-mm-yyyy" id="hpcndate"  name="hpcndate"  class="form-control" readonly>
+                  <span class="input-group-addon date_icon">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+
+              <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="hpcnvalue"> HP CN Value</label>
+                <input type="text" style="color:black;font-size:13px;"  class="form-control" id="hpcnvalue"  name="hpcnvalue" placeholder="">
+              </div>
+
+              <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="ca=ca">CA=CA</label>
+                <input type="text"  style="color:black;font-size:13px;" class="form-control" id="ca=ca" name="ca=ca" placeholder="">
+              </div>
+
+             <div class="form-group col-lg-3">
+                <label style="font-size:12px;" for="aging">Aging days</label>
+                <input type="text" style="color:black;font-size:13px;"  class="form-control" id="aging"  name="aging" placeholder="">
+              </div>
+            </div>
+
+          <button style="border-width: 1px;" type="button" onclick="prevSection('sectionC', 'sectionB')">Previous</button>
+
+           <button type="submit" style="btn-success" class="btn-success">Submit</button>
+
+
+     </div>
+
+
+
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+        <!-- Container Fluid-->
+        <div class="container-fluid" id="container-wrapper">
+
+
+          <!-- Modal Logout -->
+          <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabelLogout"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabelLogout"></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Are you sure you want to logout?</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Cancel</button>
+                  <a href="{% url 'physicalclaims:logout'  %}" class="btn btn-primary">Logout</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!---Container Fluid-->
+      </div>
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>copyright &copy; <script> document.write(new Date().getFullYear()); </script> - developed by
+              <b><a href="https://indrijunanda.gitlab.io/" target="_blank">IT-Support</a></b>
+            </span>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer -->
+    </div>
+  </div>
+
+   <!-- Scroll to top -->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+
+  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+  <script src="{% static 'js/ruang-admin.min.js' %}"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+
+  <script src="{% static 'new/js/custom.js' %}"></script>
+
+
+<!-- Include Select2 JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+
+<script>
+    $('.select2').select2();
+</script>
+
+  <script>
+    function nextSection(currentSectionId, nextSectionId) {
+        document.getElementById(currentSectionId).style.display = 'none';
+        document.getElementById(nextSectionId).style.display = 'block';
+    }
+
+    function prevSection(currentSectionId, prevSectionId) {
+        document.getElementById(currentSectionId).style.display = 'none';
+        document.getElementById(prevSectionId).style.display = 'block';
+    }
+</script>
+
+<script>
+
+    function validateForm() {
+    alert("helloworld")
+    return true;
+    }
+
+</script>
+
+
+
+</body>
+
+</html>

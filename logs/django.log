@@ -1,0 +1,1502 @@
+INFO 2024-06-22 18:08:25,054 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:08:32,244 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-22 18:08:40,538 views Logged in
+INFO 2024-06-22 18:08:40,538 views ganesan.d@redingtongroup.com loggedin 2024-06-22 18:08:40.538994
+INFO 2024-06-22 18:08:40,574 basehttp "POST /index.html HTTP/1.1" 200 28817
+INFO 2024-06-22 18:09:08,100 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:09:08,854 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:15:29,787 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:15:30,655 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:17:24,234 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:17:25,017 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:18:17,199 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:18:18,051 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:18:29,840 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:18:30,794 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:19:22,034 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:19:23,052 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:19:51,538 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:19:52,285 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:20:08,343 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:20:09,134 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:20:44,789 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:20:45,601 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:21:30,829 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:21:31,823 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:22:09,215 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:22:09,979 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:22:16,585 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:22:17,332 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:22:27,045 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:22:27,764 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:22:47,915 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:22:48,955 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:23:08,175 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:23:08,909 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:23:10,320 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:23:11,060 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:23:35,590 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:23:36,366 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:23:44,036 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:23:44,804 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:24:18,578 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:24:19,360 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:24:28,396 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:24:29,146 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:24:31,625 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:24:32,309 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:25:07,152 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:25:07,956 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:25:15,616 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:25:16,379 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:25:47,045 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:25:47,809 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:25:57,520 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:25:58,277 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:26:42,224 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:26:42,980 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:26:49,848 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:26:50,633 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:27:18,075 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:27:18,825 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:27:31,730 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:27:32,422 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:27:54,584 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:27:55,409 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:28:03,628 basehttp "GET /home.html HTTP/1.1" 200 28986
+INFO 2024-06-22 18:28:03,650 basehttp "GET /static/new/css/style.css HTTP/1.1" 304 0
+ERROR 2024-06-22 18:28:57,029 log Internal Server Error: /physicalclaimformsubmit.html
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'reqdate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaims\GanesanTeam\views.py", line 84, in claimformsubmit
+    tracker.req_date = request.POST["reqdate"]
+                       ~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'reqdate'
+ERROR 2024-06-22 18:28:57,032 basehttp "POST /physicalclaimformsubmit.html HTTP/1.1" 500 81755
+INFO 2024-06-22 18:29:58,287 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:30:08,438 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-22 18:30:15,964 views ganesan.d@redingtongroup.com loggedin 2024-06-22 18:30:15.964908
+INFO 2024-06-22 18:30:16,051 basehttp "POST /index.html HTTP/1.1" 200 28986
+ERROR 2024-06-22 18:30:54,352 log Internal Server Error: /physicalclaimformsubmit.html
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'reqdate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaims\GanesanTeam\views.py", line 84, in claimformsubmit
+    tracker.req_date = request.POST["reqdate"]
+                       ~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'reqdate'
+ERROR 2024-06-22 18:30:54,360 basehttp "POST /physicalclaimformsubmit.html HTTP/1.1" 500 104828
+INFO 2024-06-22 18:32:26,058 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:32:27,865 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:32:34,956 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:32:44,722 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-22 18:32:51,706 views ganesan.d@redingtongroup.com loggedin 2024-06-22 18:32:51.706250
+INFO 2024-06-22 18:32:51,767 basehttp "POST /index.html HTTP/1.1" 200 28986
+ERROR 2024-06-22 18:33:01,948 log Internal Server Error: /physicalclaimformsubmit.html
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'reqdate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaims\GanesanTeam\views.py", line 82, in claimformsubmit
+    print(request.POST["reqdate"])
+          ~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'reqdate'
+ERROR 2024-06-22 18:33:01,953 basehttp "POST /physicalclaimformsubmit.html HTTP/1.1" 500 104378
+INFO 2024-06-22 18:33:29,118 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:33:30,806 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:33:37,350 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:33:43,830 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-22 18:33:51,934 views ganesan.d@redingtongroup.com loggedin 2024-06-22 18:33:51.934622
+INFO 2024-06-22 18:33:52,016 basehttp "POST /index.html HTTP/1.1" 200 28986
+ERROR 2024-06-22 18:34:20,886 log Internal Server Error: /physicalclaimformsubmit.html
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'reqdate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaims\GanesanTeam\views.py", line 82, in claimformsubmit
+    print(request.POST["reqdate"])
+          ~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'reqdate'
+ERROR 2024-06-22 18:34:20,889 basehttp "POST /physicalclaimformsubmit.html HTTP/1.1" 500 104452
+INFO 2024-06-22 18:35:00,544 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:35:06,916 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-22 18:35:14,482 views ganesan.d@redingtongroup.com loggedin 2024-06-22 18:35:14.482510
+INFO 2024-06-22 18:35:14,546 basehttp "POST /index.html HTTP/1.1" 200 28994
+INFO 2024-06-22 18:36:50,335 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:36:57,633 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:37:04,490 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-22 18:37:11,604 views ganesan.d@redingtongroup.com loggedin 2024-06-22 18:37:11.603832
+INFO 2024-06-22 18:37:11,678 basehttp "POST /index.html HTTP/1.1" 200 28998
+INFO 2024-06-22 18:38:08,123 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:38:41,901 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:38:48,302 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-22 18:38:48,406 basehttp "GET /static/css/ruang-admin.min.css HTTP/1.1" 200 30266
+INFO 2024-06-22 18:38:48,407 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 200 50998
+INFO 2024-06-22 18:38:48,407 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 55183
+INFO 2024-06-22 18:38:48,408 basehttp "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 87532
+INFO 2024-06-22 18:38:48,409 basehttp "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 175814
+INFO 2024-06-22 18:38:48,530 basehttp "GET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 200 2532
+INFO 2024-06-22 18:38:48,531 basehttp "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 78635
+INFO 2024-06-22 18:38:48,544 basehttp "GET /static/js/ruang-admin.min.js HTTP/1.1" 200 1386
+INFO 2024-06-22 18:38:48,622 basehttp "GET /static/font/Nunito-Regular.ttf HTTP/1.1" 200 108828
+INFO 2024-06-22 18:38:55,294 views ganesan.d@redingtongroup.com loggedin 2024-06-22 18:38:55.294801
+INFO 2024-06-22 18:38:55,322 basehttp "POST /index.html HTTP/1.1" 200 28998
+INFO 2024-06-22 18:38:55,349 basehttp "GET /static/vendor/select2/dist/css/select2.min.css HTTP/1.1" 200 14966
+INFO 2024-06-22 18:38:55,349 basehttp "GET /static/new/css/responsive.css HTTP/1.1" 200 2937
+INFO 2024-06-22 18:38:55,350 basehttp "GET /static/new/css/style.css HTTP/1.1" 200 22133
+INFO 2024-06-22 18:38:55,351 basehttp "GET /static/new/css/font-awesome.min.css HTTP/1.1" 200 31000
+INFO 2024-06-22 18:38:55,354 basehttp "GET /static/img/boy.png HTTP/1.1" 200 16834
+INFO 2024-06-22 18:38:55,356 basehttp "GET /static/new/css/bootstrap.css HTTP/1.1" 200 192348
+INFO 2024-06-22 18:38:55,366 basehttp "GET /static/new/js/custom.js HTTP/1.1" 200 2512
+INFO 2024-06-22 18:38:55,501 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2024-06-22 18:38:55,502 basehttp "GET /static/new/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+INFO 2024-06-22 18:38:55,504 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 74328
+INFO 2024-06-22 18:39:11,460 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:39:17,915 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-22 18:39:26,252 views ganesan.d@redingtongroup.com loggedin 2024-06-22 18:39:26.252566
+INFO 2024-06-22 18:39:26,334 basehttp "POST /index.html HTTP/1.1" 200 28998
+INFO 2024-06-22 18:39:26,371 basehttp "GET /static/new/js/custom.js HTTP/1.1" 304 0
+ERROR 2024-06-22 18:40:10,139 log Internal Server Error: /physicalclaimformsubmit.html
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'requestdate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaims\GanesanTeam\views.py", line 82, in claimformsubmit
+    print(request.POST["requestdate"])
+          ~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'requestdate'
+ERROR 2024-06-22 18:40:10,144 basehttp "POST /physicalclaimformsubmit.html HTTP/1.1" 500 104675
+INFO 2024-06-22 18:40:59,374 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:41:05,870 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-22 18:41:12,477 views ganesan.d@redingtongroup.com loggedin 2024-06-22 18:41:12.477586
+INFO 2024-06-22 18:41:12,556 basehttp "POST /index.html HTTP/1.1" 200 28998
+INFO 2024-06-22 18:41:12,586 basehttp "GET /static/new/js/custom.js HTTP/1.1" 304 0
+ERROR 2024-06-22 18:41:29,071 log Internal Server Error: /physicalclaimformsubmit.html
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'currentdate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaims\GanesanTeam\views.py", line 82, in claimformsubmit
+    print(request.POST["currentdate"])
+          ~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'currentdate'
+ERROR 2024-06-22 18:41:29,080 basehttp "POST /physicalclaimformsubmit.html HTTP/1.1" 500 104468
+INFO 2024-06-22 18:50:15,146 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:50:16,691 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:51:23,112 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 18:51:24,697 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:51:29,478 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:51:37,617 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-22 18:51:44,844 views ganesan.d@redingtongroup.com loggedin 2024-06-22 18:51:44.844294
+INFO 2024-06-22 18:51:44,934 basehttp "POST /index.html HTTP/1.1" 200 28966
+INFO 2024-06-22 18:51:44,978 basehttp "GET /static/new/js/custom.js HTTP/1.1" 304 0
+INFO 2024-06-22 18:53:19,676 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:53:25,239 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-22 18:53:32,437 views ganesan.d@redingtongroup.com loggedin 2024-06-22 18:53:32.437092
+INFO 2024-06-22 18:53:32,509 basehttp "POST /index.html HTTP/1.1" 200 28967
+INFO 2024-06-22 18:53:32,548 basehttp "GET /static/new/js/custom.js HTTP/1.1" 304 0
+INFO 2024-06-22 18:54:07,037 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 18:54:13,470 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-22 18:54:21,267 views ganesan.d@redingtongroup.com loggedin 2024-06-22 18:54:21.267130
+INFO 2024-06-22 18:54:21,335 basehttp "POST /index.html HTTP/1.1" 200 28967
+INFO 2024-06-22 20:42:23,371 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 20:42:32,468 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-22 20:42:40,681 views ganesan.d@redingtongroup.com loggedin 2024-06-22 20:42:40.681301
+INFO 2024-06-22 20:42:40,795 basehttp "POST /index.html HTTP/1.1" 200 29375
+INFO 2024-06-22 20:42:40,847 basehttp "GET /static/new/css/style.css HTTP/1.1" 304 0
+INFO 2024-06-22 20:42:40,863 basehttp "GET /static/new/js/custom.js HTTP/1.1" 304 0
+INFO 2024-06-22 20:48:11,503 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 20:48:25,344 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 20:48:25,984 basehttp "GET /home.html HTTP/1.1" 200 29411
+INFO 2024-06-22 20:48:31,582 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-22 20:48:38,973 views ganesan.d@redingtongroup.com loggedin 2024-06-22 20:48:38.973733
+INFO 2024-06-22 20:48:39,076 basehttp "POST /index.html HTTP/1.1" 200 29411
+INFO 2024-06-22 20:50:38,586 basehttp "GET /home.html HTTP/1.1" 200 29441
+INFO 2024-06-22 20:57:34,233 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 20:57:41,248 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-22 20:57:49,813 views ganesan.d@redingtongroup.com loggedin 2024-06-22 20:57:49.813380
+INFO 2024-06-22 20:57:49,917 basehttp "POST /index.html HTTP/1.1" 200 29467
+INFO 2024-06-22 20:57:50,002 basehttp "GET /static/new/js/custom.js HTTP/1.1" 304 0
+INFO 2024-06-22 21:00:16,086 basehttp "GET /home.html HTTP/1.1" 200 29468
+ERROR 2024-06-22 21:02:53,310 log Internal Server Error: /physicalclaimformsubmit.html
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaims\GanesanTeam\views.py", line 122, in claimformsubmit
+    tracker = Tracker(
+              ^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\db\models\base.py", line 585, in __init__
+    raise TypeError(
+TypeError: Tracker() got unexpected keyword arguments: 'redingtoninvoice', 'ecidate', 'calliddate', 'rrno', 'customercm', 'dhlcode', 'rponum', 'rpodate', 'grndate', 'hpcnno', 'hpcndate', 'hpcnvalue', 'ca_ca', 'aging', 'claimstatus', 'additionalclaims'
+ERROR 2024-06-22 21:02:53,316 log Internal Server Error: /physicalclaimformsubmit.html
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaims\GanesanTeam\views.py", line 122, in claimformsubmit
+    tracker = Tracker(
+              ^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\db\models\base.py", line 585, in __init__
+    raise TypeError(
+TypeError: Tracker() got unexpected keyword arguments: 'redingtoninvoice', 'ecidate', 'calliddate', 'rrno', 'customercm', 'dhlcode', 'rponum', 'rpodate', 'grndate', 'hpcnno', 'hpcndate', 'hpcnvalue', 'ca_ca', 'aging', 'claimstatus', 'additionalclaims'
+ERROR 2024-06-22 21:02:53,320 basehttp "POST /physicalclaimformsubmit.html HTTP/1.1" 500 114397
+INFO 2024-06-22 21:02:53,324 basehttp - Broken pipe from ('127.0.0.1', 60057)
+INFO 2024-06-22 21:03:27,645 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 21:07:14,918 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 21:08:16,493 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-22 21:08:26,415 views ganesan.d@redingtongroup.com loggedin 2024-06-22 21:08:26.415618
+INFO 2024-06-22 21:08:26,516 basehttp "POST /index.html HTTP/1.1" 200 29468
+INFO 2024-06-22 21:18:54,090 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 21:19:05,903 autoreload Watching for file changes with StatReloader
+INFO 2024-06-22 21:19:13,205 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-22 21:19:20,715 views ganesan.d@redingtongroup.com loggedin 2024-06-22 21:19:20.715668
+INFO 2024-06-22 21:19:20,814 basehttp "POST /index.html HTTP/1.1" 200 29468
+INFO 2024-06-22 21:19:20,913 basehttp "GET /static/new/js/custom.js HTTP/1.1" 304 0
+INFO 2024-06-22 21:21:39,951 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-22 21:21:42,921 autoreload Watching for file changes with StatReloader
+INFO 2024-06-23 05:54:03,936 autoreload Watching for file changes with StatReloader
+INFO 2024-06-23 05:54:12,853 basehttp "GET / HTTP/1.1" 200 3405
+WARNING 2024-06-23 05:54:13,507 log Not Found: /favicon.ico
+WARNING 2024-06-23 05:54:13,507 basehttp "GET /favicon.ico HTTP/1.1" 404 2998
+INFO 2024-06-23 05:54:25,189 views ganesan.d@redingtongroup.com loggedin 2024-06-23 05:54:25.189601
+INFO 2024-06-23 05:54:25,239 basehttp "POST /index.html HTTP/1.1" 200 29468
+INFO 2024-06-23 05:54:25,291 basehttp "GET /static/new/css/style.css HTTP/1.1" 304 0
+INFO 2024-06-23 05:54:25,315 basehttp "GET /static/new/js/custom.js HTTP/1.1" 304 0
+INFO 2024-06-23 05:56:39,982 views Exception occured ['“01-06-2024” value has an invalid date format. It must be in YYYY-MM-DD format.'] 2024-06-23 05:56:39.982556
+ERROR 2024-06-23 05:56:40,140 log Internal Server Error: /physicalclaimformsubmit.html
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaims\GanesanTeam\views.py", line 164, in claimformsubmit
+    tracker.save()
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\db\models\base.py", line 831, in save
+    self.save_base(
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\db\models\base.py", line 882, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\db\models\base.py", line 1025, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\db\models\base.py", line 1066, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\db\models\query.py", line 1790, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1656, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1582, in as_sql
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\db\models\sql\compiler.py", line 1520, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\db\models\fields\__init__.py", line 925, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\db\models\fields\__init__.py", line 1438, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\db\models\fields\__init__.py", line 1433, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\db\models\fields\__init__.py", line 1399, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“01-06-2024” value has an invalid date format. It must be in YYYY-MM-DD format.']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaims\GanesanTeam\views.py", line 173, in claimformsubmit
+    return HttpResponse("Exception occured. " + e)
+                        ~~~~~~~~~~~~~~~~~~~~~~^~~
+TypeError: can only concatenate str (not "ValidationError") to str
+ERROR 2024-06-23 05:56:40,157 basehttp "POST /physicalclaimformsubmit.html HTTP/1.1" 500 167257
+INFO 2024-06-23 05:58:18,125 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-23 05:58:19,285 autoreload Watching for file changes with StatReloader
+INFO 2024-06-23 05:58:38,162 autoreload Watching for file changes with StatReloader
+INFO 2024-06-23 05:58:45,723 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-23 05:58:53,750 views ganesan.d@redingtongroup.com loggedin 2024-06-23 05:58:53.750107
+INFO 2024-06-23 05:58:53,845 basehttp "POST /index.html HTTP/1.1" 200 29468
+INFO 2024-06-23 06:03:39,201 autoreload Watching for file changes with StatReloader
+INFO 2024-06-23 06:03:41,468 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-23 06:03:51,540 views ganesan.d@redingtongroup.com loggedin 2024-06-23 06:03:51.540505
+INFO 2024-06-23 06:03:51,572 basehttp "POST /index.html HTTP/1.1" 200 29468
+INFO 2024-06-23 06:04:11,855 views Exception occured strptime() takes exactly 2 arguments (1 given) 2024-06-23 06:04:11.855694
+INFO 2024-06-23 06:04:11,855 basehttp "POST /physicalclaimformsubmit.html HTTP/1.1" 200 65
+INFO 2024-06-23 06:06:12,821 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-23 06:06:13,945 autoreload Watching for file changes with StatReloader
+INFO 2024-06-23 06:06:23,689 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-23 06:06:31,623 views ganesan.d@redingtongroup.com loggedin 2024-06-23 06:06:31.623595
+INFO 2024-06-23 06:06:31,677 basehttp "POST /index.html HTTP/1.1" 200 29468
+INFO 2024-06-23 06:06:49,155 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-23 06:06:50,239 autoreload Watching for file changes with StatReloader
+INFO 2024-06-23 06:07:04,898 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-23 06:07:06,140 autoreload Watching for file changes with StatReloader
+INFO 2024-06-23 06:07:37,805 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-23 06:07:38,850 autoreload Watching for file changes with StatReloader
+INFO 2024-06-23 06:08:12,410 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-23 06:08:13,314 autoreload Watching for file changes with StatReloader
+INFO 2024-06-23 06:08:26,734 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-23 06:08:27,683 autoreload Watching for file changes with StatReloader
+INFO 2024-06-23 06:09:19,510 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-23 06:09:20,490 autoreload Watching for file changes with StatReloader
+INFO 2024-06-23 06:09:46,248 autoreload Watching for file changes with StatReloader
+INFO 2024-06-23 06:09:59,360 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-23 06:10:09,298 views ganesan.d@redingtongroup.com loggedin 2024-06-23 06:10:09.298401
+INFO 2024-06-23 06:10:09,392 basehttp "POST /index.html HTTP/1.1" 200 29468
+INFO 2024-06-23 06:14:00,313 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-23 06:14:02,324 autoreload Watching for file changes with StatReloader
+INFO 2024-06-23 06:20:28,986 autoreload Watching for file changes with StatReloader
+INFO 2024-06-23 06:20:41,233 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-23 06:20:48,685 views ganesan.d@redingtongroup.com loggedin 2024-06-23 06:20:48.685988
+INFO 2024-06-23 06:20:48,781 basehttp "POST /index.html HTTP/1.1" 200 29468
+INFO 2024-06-23 06:29:53,687 autoreload Watching for file changes with StatReloader
+INFO 2024-06-23 06:30:05,450 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-23 06:30:12,584 views ganesan.d@redingtongroup.com loggedin 2024-06-23 06:30:12.584491
+INFO 2024-06-23 06:30:12,687 basehttp "POST /index.html HTTP/1.1" 200 29468
+INFO 2024-06-24 12:33:31,797 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 12:33:41,235 basehttp "GET / HTTP/1.1" 200 3405
+WARNING 2024-06-24 12:33:41,758 log Not Found: /favicon.ico
+WARNING 2024-06-24 12:33:41,758 basehttp "GET /favicon.ico HTTP/1.1" 404 2998
+INFO 2024-06-24 12:33:48,782 views ganesan.d@redingtongroup.com loggedin 2024-06-24 12:33:48.782295
+INFO 2024-06-24 12:33:48,832 basehttp "POST /index.html HTTP/1.1" 200 29468
+INFO 2024-06-24 12:33:48,860 basehttp "GET /static/new/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2024-06-24 12:33:48,860 basehttp "GET /static/new/css/font-awesome.min.css HTTP/1.1" 304 0
+INFO 2024-06-24 12:33:48,864 basehttp "GET /static/new/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-06-24 12:33:48,864 basehttp "GET /static/new/css/style.css HTTP/1.1" 304 0
+INFO 2024-06-24 12:33:48,874 basehttp "GET /static/new/js/custom.js HTTP/1.1" 304 0
+INFO 2024-06-24 12:33:48,916 basehttp "GET /static/new/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+INFO 2024-06-24 12:34:04,057 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-24 12:34:04,453 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-06-24 12:34:04,524 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2204
+INFO 2024-06-24 12:34:10,584 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-06-24 12:34:10,623 basehttp "GET /admin/ HTTP/1.1" 200 11455
+INFO 2024-06-24 12:34:14,219 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 34925
+INFO 2024-06-24 12:34:14,244 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:34:24,306 basehttp "POST /admin/GanesanTeam/tracker/ HTTP/1.1" 200 9768
+INFO 2024-06-24 12:34:24,325 basehttp "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2024-06-24 12:34:26,125 basehttp "POST /admin/GanesanTeam/tracker/ HTTP/1.1" 302 0
+INFO 2024-06-24 12:34:26,149 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 8639
+INFO 2024-06-24 12:34:26,177 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:34:26,192 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-06-24 12:34:30,714 basehttp "GET /home.html HTTP/1.1" 200 29468
+INFO 2024-06-24 12:35:31,167 views Tracker object (11) 2024-06-24 12:35:31.167771
+INFO 2024-06-24 12:35:31,167 basehttp "POST /physicalclaimformsubmit.html HTTP/1.1" 200 19
+INFO 2024-06-24 12:35:40,700 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17642
+INFO 2024-06-24 12:35:40,723 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:35:42,944 basehttp "GET /admin/GanesanTeam/tracker/11/change/ HTTP/1.1" 200 28305
+INFO 2024-06-24 12:35:42,967 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2024-06-24 12:35:42,970 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2024-06-24 12:35:42,971 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 8944
+INFO 2024-06-24 12:35:42,972 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-06-24 12:35:42,974 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:35:42,980 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11297
+INFO 2024-06-24 12:35:42,981 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 1043
+INFO 2024-06-24 12:35:43,042 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2024-06-24 12:36:27,440 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17642
+INFO 2024-06-24 12:36:27,463 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:36:51,068 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17642
+INFO 2024-06-24 12:36:51,089 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:40:21,248 basehttp "GET /admin/ HTTP/1.1" 200 10950
+INFO 2024-06-24 12:40:24,964 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17642
+INFO 2024-06-24 12:40:24,986 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:40:28,525 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8504
+INFO 2024-06-24 12:40:28,545 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:40:32,593 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 5549
+INFO 2024-06-24 12:42:07,214 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17642
+INFO 2024-06-24 12:42:07,235 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:42:09,097 basehttp "GET /admin/GanesanTeam/tracker/import/ HTTP/1.1" 200 9150
+INFO 2024-06-24 12:42:09,124 basehttp "GET /static/import_export/import.css HTTP/1.1" 304 0
+INFO 2024-06-24 12:42:09,129 basehttp "GET /static/import_export/guess_format.js HTTP/1.1" 304 0
+INFO 2024-06-24 12:42:09,130 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:42:20,772 basehttp "POST /admin/GanesanTeam/tracker/import/ HTTP/1.1" 200 12597
+INFO 2024-06-24 12:42:20,795 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:42:34,289 basehttp "POST /admin/GanesanTeam/tracker/process_import/ HTTP/1.1" 302 0
+INFO 2024-06-24 12:42:34,309 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17815
+INFO 2024-06-24 12:42:34,329 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:43:42,808 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17653
+INFO 2024-06-24 12:43:42,832 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:43:44,948 basehttp "GET /admin/GanesanTeam/tracker/import/ HTTP/1.1" 200 9150
+INFO 2024-06-24 12:43:44,974 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:43:50,644 basehttp "POST /admin/GanesanTeam/tracker/import/ HTTP/1.1" 200 12531
+INFO 2024-06-24 12:43:50,663 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:44:01,964 basehttp "POST /admin/GanesanTeam/tracker/process_import/ HTTP/1.1" 302 0
+INFO 2024-06-24 12:44:01,987 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17804
+INFO 2024-06-24 12:44:02,012 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:44:55,609 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17642
+INFO 2024-06-24 12:44:55,633 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:45:46,047 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8504
+INFO 2024-06-24 12:45:46,068 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:45:50,837 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 5552
+INFO 2024-06-24 12:46:38,781 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-24 12:46:39,829 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 12:50:16,422 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-24 12:50:17,287 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 12:50:19,748 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-24 12:50:20,526 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 12:50:53,556 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-24 12:51:05,702 views ganesan.d@redingtongroup.com loggedin 2024-06-24 12:51:05.702474
+INFO 2024-06-24 12:51:05,735 basehttp "POST /index.html HTTP/1.1" 200 29468
+INFO 2024-06-24 12:52:53,448 views Tracker object (12) 2024-06-24 12:52:53.448709
+INFO 2024-06-24 12:52:53,449 basehttp "POST /physicalclaimformsubmit.html HTTP/1.1" 200 19
+INFO 2024-06-24 12:53:04,627 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 19463
+INFO 2024-06-24 12:53:04,653 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:53:26,964 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-24 12:53:27,715 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 12:53:44,623 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-24 12:53:45,382 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 12:53:50,993 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-24 12:53:51,694 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 12:53:59,408 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-24 12:54:00,246 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 12:54:11,027 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-24 12:54:11,847 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 12:54:18,610 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-24 12:54:19,357 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 12:54:24,953 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-24 12:54:25,763 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 12:54:32,476 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\views.py changed, reloading.
+INFO 2024-06-24 12:54:33,207 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 12:55:25,138 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-24 12:55:33,618 views ganesan.d@redingtongroup.com loggedin 2024-06-24 12:55:33.618272
+INFO 2024-06-24 12:55:33,662 basehttp "POST /index.html HTTP/1.1" 200 29468
+INFO 2024-06-24 12:56:02,954 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 19463
+INFO 2024-06-24 12:56:02,979 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:56:07,792 basehttp "POST /admin/GanesanTeam/tracker/ HTTP/1.1" 200 8538
+INFO 2024-06-24 12:56:09,806 basehttp "POST /admin/GanesanTeam/tracker/ HTTP/1.1" 302 0
+INFO 2024-06-24 12:56:09,833 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 8638
+INFO 2024-06-24 12:56:09,861 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:56:19,940 views Tracker object (13) 2024-06-24 12:56:19.940762
+INFO 2024-06-24 12:56:19,941 basehttp "POST /physicalclaimformsubmit.html HTTP/1.1" 200 19
+INFO 2024-06-24 12:56:29,815 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17462
+INFO 2024-06-24 12:56:29,835 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:56:40,986 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8504
+INFO 2024-06-24 12:56:41,009 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:56:45,062 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 5477
+INFO 2024-06-24 12:57:27,579 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 5476
+INFO 2024-06-24 12:58:07,948 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17462
+INFO 2024-06-24 12:58:07,975 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:58:12,244 basehttp "GET /admin/GanesanTeam/tracker/import/ HTTP/1.1" 200 9150
+INFO 2024-06-24 12:58:12,268 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:58:18,375 basehttp "POST /admin/GanesanTeam/tracker/import/ HTTP/1.1" 200 12096
+INFO 2024-06-24 12:58:18,396 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:58:23,063 basehttp "POST /admin/GanesanTeam/tracker/process_import/ HTTP/1.1" 302 0
+INFO 2024-06-24 12:58:23,091 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17659
+INFO 2024-06-24 12:58:23,112 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:59:44,082 basehttp "GET /admin/GanesanTeam/tracker/13/change/ HTTP/1.1" 200 27954
+INFO 2024-06-24 12:59:44,105 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 12:59:52,379 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 12:59:52,402 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 13:00:30,626 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8504
+INFO 2024-06-24 13:00:30,644 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 13:00:34,606 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 5490
+INFO 2024-06-24 13:04:52,348 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:04:53,179 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:06:34,627 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:06:45,361 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-24 13:06:49,486 basehttp "GET /admin/ HTTP/1.1" 200 11110
+INFO 2024-06-24 13:06:52,358 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 13:06:52,381 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 13:07:00,904 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8500
+INFO 2024-06-24 13:07:00,924 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 13:07:04,701 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 5470
+INFO 2024-06-24 13:10:17,314 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:10:18,142 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:10:48,016 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:10:48,769 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:11:03,687 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:11:04,444 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:11:12,110 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:11:12,842 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:11:28,204 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-24 13:11:32,629 basehttp "GET /admin/ HTTP/1.1" 200 11110
+INFO 2024-06-24 13:11:49,813 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 5470
+INFO 2024-06-24 13:18:57,282 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:18:58,057 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:19:35,242 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:19:36,006 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:19:42,598 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:19:43,331 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:23:22,244 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:23:23,059 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:23:44,747 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:23:45,475 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:24:05,480 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:24:06,276 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:24:29,002 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:24:29,711 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:24:47,060 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:24:47,901 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:25:03,080 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:25:03,829 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:25:27,041 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:25:27,799 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:25:36,686 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:25:48,571 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-24 13:25:58,297 basehttp "GET /admin/ HTTP/1.1" 200 11110
+INFO 2024-06-24 13:26:01,514 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 13:26:01,531 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 13:26:09,247 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8500
+INFO 2024-06-24 13:26:09,267 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2024-06-24 13:26:13,330 log Internal Server Error: /admin/GanesanTeam/tracker/export/
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 830, in export_action
+    export_data = self.get_export_data(
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 773, in get_export_data
+    data = self.get_data_for_export(request, queryset, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\mixins.py", line 193, in get_data_for_export
+    export_data = cls.export(*args, queryset=queryset, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaims\GanesanTeam\admin.py", line 61, in export
+    ws = wb.active
+         ^^^^^^^^^
+AttributeError: 'bytes' object has no attribute 'active'
+ERROR 2024-06-24 13:26:13,333 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 500 106539
+INFO 2024-06-24 13:26:58,494 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:26:59,253 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:27:01,108 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8500
+INFO 2024-06-24 13:27:03,271 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 13:27:03,293 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 13:27:06,671 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8500
+INFO 2024-06-24 13:27:06,691 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 13:27:10,420 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 5470
+INFO 2024-06-24 13:27:29,713 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:27:30,463 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:27:49,515 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:27:50,284 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:27:57,884 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:27:58,615 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:28:01,424 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 13:28:01,440 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 13:28:04,953 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8500
+INFO 2024-06-24 13:28:04,970 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2024-06-24 13:28:09,529 log Internal Server Error: /admin/GanesanTeam/tracker/export/
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 830, in export_action
+    export_data = self.get_export_data(
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 773, in get_export_data
+    data = self.get_data_for_export(request, queryset, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\mixins.py", line 193, in get_data_for_export
+    export_data = cls.export(*args, queryset=queryset, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaims\GanesanTeam\admin.py", line 61, in export
+    ws = wb.active
+         ^^^^^^^^^
+AttributeError: 'bytes' object has no attribute 'active'
+ERROR 2024-06-24 13:28:09,534 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 500 106518
+INFO 2024-06-24 13:37:13,706 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:37:23,014 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-24 13:37:26,157 basehttp "GET /admin/ HTTP/1.1" 200 11110
+INFO 2024-06-24 13:37:30,381 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 13:37:30,409 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 13:37:33,572 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8500
+INFO 2024-06-24 13:37:33,594 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2024-06-24 13:37:37,259 log Internal Server Error: /admin/GanesanTeam/tracker/export/
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 830, in export_action
+    export_data = self.get_export_data(
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 773, in get_export_data
+    data = self.get_data_for_export(request, queryset, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\mixins.py", line 193, in get_data_for_export
+    export_data = cls.export(*args, queryset=queryset, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaims\GanesanTeam\admin.py", line 61, in export
+    ws = wb.active
+         ^^^^^^^^^
+AttributeError: 'bytes' object has no attribute 'active'
+ERROR 2024-06-24 13:37:37,263 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 500 106514
+INFO 2024-06-24 13:38:52,086 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:38:52,864 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:39:17,519 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:39:18,285 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:39:28,908 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-24 13:39:32,017 basehttp "GET /admin/ HTTP/1.1" 200 11110
+INFO 2024-06-24 13:39:35,995 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 13:39:36,020 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 13:39:44,518 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8500
+INFO 2024-06-24 13:39:44,539 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2024-06-24 13:39:48,890 log Internal Server Error: /admin/GanesanTeam/tracker/export/
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 830, in export_action
+    export_data = self.get_export_data(
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 773, in get_export_data
+    data = self.get_data_for_export(request, queryset, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\mixins.py", line 193, in get_data_for_export
+    export_data = cls.export(*args, queryset=queryset, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaims\GanesanTeam\admin.py", line 64, in export
+    dataset.xlsx.save(output)
+    ^^^^^^^^^^^^^^^^^
+AttributeError: 'bytes' object has no attribute 'save'
+ERROR 2024-06-24 13:39:48,894 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 500 101683
+INFO 2024-06-24 13:42:06,117 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:42:06,990 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:42:19,860 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:42:20,605 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:42:31,350 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:42:32,101 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:42:45,403 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-24 13:42:49,546 basehttp "GET /admin/ HTTP/1.1" 200 11110
+INFO 2024-06-24 13:42:53,175 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 13:42:53,203 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 13:42:56,551 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8500
+INFO 2024-06-24 13:42:56,574 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2024-06-24 13:43:00,457 log Internal Server Error: /admin/GanesanTeam/tracker/export/
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 830, in export_action
+    export_data = self.get_export_data(
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 774, in get_export_data
+    export_data = file_format.export_data(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\formats\base_formats.py", line 227, in export_data
+    return super().export_data(dataset, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\formats\base_formats.py", line 93, in export_data
+    return dataset.export(self.get_title(), **kwargs)
+           ^^^^^^^^^^^^^^
+AttributeError: 'bytes' object has no attribute 'export'
+ERROR 2024-06-24 13:43:00,460 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 500 112645
+INFO 2024-06-24 13:44:40,082 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:44:40,906 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:44:43,374 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:44:44,109 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:45:00,010 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:45:00,828 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:45:12,830 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:45:13,658 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:45:20,525 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-24 13:45:23,605 basehttp "GET /admin/ HTTP/1.1" 200 11110
+INFO 2024-06-24 13:45:27,862 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 13:45:27,889 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 13:45:33,189 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8500
+INFO 2024-06-24 13:45:33,208 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2024-06-24 13:45:37,089 log Internal Server Error: /admin/GanesanTeam/tracker/export/
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 830, in export_action
+    export_data = self.get_export_data(
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 774, in get_export_data
+    export_data = file_format.export_data(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\formats\base_formats.py", line 227, in export_data
+    return super().export_data(dataset, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\formats\base_formats.py", line 93, in export_data
+    return dataset.export(self.get_title(), **kwargs)
+           ^^^^^^^^^^^^^^
+AttributeError: 'bytes' object has no attribute 'export'
+ERROR 2024-06-24 13:45:37,092 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 500 112696
+INFO 2024-06-24 13:47:54,847 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:47:55,776 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:48:20,695 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-24 13:48:23,429 basehttp "GET /admin/ HTTP/1.1" 200 11110
+INFO 2024-06-24 13:48:26,501 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 13:48:26,528 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 13:48:29,594 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8500
+INFO 2024-06-24 13:48:29,615 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2024-06-24 13:48:33,757 log Internal Server Error: /admin/GanesanTeam/tracker/export/
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 830, in export_action
+    export_data = self.get_export_data(
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 773, in get_export_data
+    data = self.get_data_for_export(request, queryset, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\mixins.py", line 193, in get_data_for_export
+    export_data = cls.export(*args, queryset=queryset, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaims\GanesanTeam\admin.py", line 61, in export
+    dataset.xlsx.save(output)
+    ^^^^^^^^^^^^^^^^^
+AttributeError: 'bytes' object has no attribute 'save'
+ERROR 2024-06-24 13:48:33,760 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 500 100130
+INFO 2024-06-24 13:49:15,688 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:49:16,497 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:49:20,962 basehttp "GET /admin/ HTTP/1.1" 200 11110
+INFO 2024-06-24 13:49:24,040 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 13:49:24,064 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 13:49:27,945 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8500
+INFO 2024-06-24 13:49:27,963 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 13:49:32,097 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 5470
+INFO 2024-06-24 13:55:00,711 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:55:01,702 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:55:15,624 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:55:16,386 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:55:28,174 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:55:29,103 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:55:47,703 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-24 13:55:50,979 basehttp "GET /admin/ HTTP/1.1" 200 11110
+INFO 2024-06-24 13:55:56,792 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 13:55:56,811 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 13:56:00,381 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8500
+INFO 2024-06-24 13:56:00,399 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2024-06-24 13:56:04,510 log Internal Server Error: /admin/GanesanTeam/tracker/export/
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 830, in export_action
+    export_data = self.get_export_data(
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 773, in get_export_data
+    data = self.get_data_for_export(request, queryset, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\mixins.py", line 193, in get_data_for_export
+    export_data = cls.export(*args, queryset=queryset, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaims\GanesanTeam\admin.py", line 59, in export
+    dataset = super().export(queryset, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\resources.py", line 1137, in export
+    data.append(self.export_resource(obj))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\resources.py", line 1076, in export_resource
+    return [self.export_field(field, obj) for field in self.get_export_fields()]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\resources.py", line 1070, in export_field
+    return field.export(obj)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\fields.py", line 148, in export
+    return self.widget.render(value, obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaims\GanesanTeam\admin.py", line 29, in render
+    return value.strftime(self.format) if value else ''
+                          ^^^^^^^^^^^
+AttributeError: 'CustomDateWidget' object has no attribute 'format'. Did you mean: 'formats'?
+ERROR 2024-06-24 13:56:04,512 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 500 122109
+INFO 2024-06-24 13:58:03,034 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 13:58:03,905 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 13:58:26,569 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-24 13:58:30,331 basehttp "GET /admin/ HTTP/1.1" 200 11110
+INFO 2024-06-24 13:58:33,496 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 13:58:33,521 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 13:58:39,347 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8500
+INFO 2024-06-24 13:58:39,369 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2024-06-24 13:58:43,509 log Internal Server Error: /admin/GanesanTeam/tracker/export/
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 830, in export_action
+    export_data = self.get_export_data(
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 774, in get_export_data
+    export_data = file_format.export_data(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\formats\base_formats.py", line 227, in export_data
+    return super().export_data(dataset, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\formats\base_formats.py", line 93, in export_data
+    return dataset.export(self.get_title(), **kwargs)
+           ^^^^^^^^^^^^^^
+AttributeError: '_io.BytesIO' object has no attribute 'export'
+ERROR 2024-06-24 13:58:43,513 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 500 98491
+INFO 2024-06-24 14:00:45,486 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 14:00:46,250 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 14:01:27,022 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 14:01:27,821 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 14:01:34,293 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 14:01:35,029 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 14:01:51,029 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 14:01:51,779 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 14:02:02,364 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-24 14:02:05,433 basehttp "GET /admin/ HTTP/1.1" 200 11110
+INFO 2024-06-24 14:02:08,267 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 9571
+INFO 2024-06-24 14:02:08,290 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 14:02:15,577 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 5492
+INFO 2024-06-24 14:02:50,522 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 5492
+INFO 2024-06-24 14:04:17,400 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 14:04:18,261 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 14:04:20,831 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 14:04:20,846 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 14:04:25,312 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8500
+INFO 2024-06-24 14:04:25,333 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 14:04:29,335 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 5470
+INFO 2024-06-24 14:07:01,020 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 14:07:01,806 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 14:07:06,282 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 14:07:07,059 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 14:07:21,068 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-24 14:07:23,873 basehttp "GET /admin/ HTTP/1.1" 200 11110
+INFO 2024-06-24 14:07:26,790 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 14:07:26,817 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 14:07:35,719 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8500
+INFO 2024-06-24 14:07:35,742 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2024-06-24 14:07:39,647 log Internal Server Error: /admin/GanesanTeam/tracker/export/
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 830, in export_action
+    export_data = self.get_export_data(
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 773, in get_export_data
+    data = self.get_data_for_export(request, queryset, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\mixins.py", line 193, in get_data_for_export
+    export_data = cls.export(*args, queryset=queryset, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\resources.py", line 1137, in export
+    data.append(self.export_resource(obj))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\resources.py", line 1076, in export_resource
+    return [self.export_field(field, obj) for field in self.get_export_fields()]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\resources.py", line 1070, in export_field
+    return field.export(obj)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\fields.py", line 148, in export
+    return self.widget.render(value, obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaims\GanesanTeam\admin.py", line 34, in render
+    return value.strftime(self.format)
+                          ^^^^^^^^^^^
+AttributeError: 'CustomDateWidget' object has no attribute 'format'. Did you mean: 'formats'?
+ERROR 2024-06-24 14:07:39,651 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 500 117275
+INFO 2024-06-24 14:09:52,126 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 14:09:52,920 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 14:09:58,966 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8500
+INFO 2024-06-24 14:10:00,785 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 14:10:00,812 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 14:10:04,848 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8500
+INFO 2024-06-24 14:10:04,868 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2024-06-24 14:10:09,668 log Internal Server Error: /admin/GanesanTeam/tracker/export/
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 830, in export_action
+    export_data = self.get_export_data(
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 773, in get_export_data
+    data = self.get_data_for_export(request, queryset, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\mixins.py", line 193, in get_data_for_export
+    export_data = cls.export(*args, queryset=queryset, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\resources.py", line 1137, in export
+    data.append(self.export_resource(obj))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\resources.py", line 1076, in export_resource
+    return [self.export_field(field, obj) for field in self.get_export_fields()]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\resources.py", line 1070, in export_field
+    return field.export(obj)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\fields.py", line 148, in export
+    return self.widget.render(value, obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaims\GanesanTeam\admin.py", line 34, in render
+    return value.strftime(self.format)
+                          ^^^^^^^^^^^
+AttributeError: 'CustomDateWidget' object has no attribute 'format'. Did you mean: 'formats'?
+ERROR 2024-06-24 14:10:09,673 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 500 117312
+INFO 2024-06-24 14:11:16,476 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 14:11:17,334 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 14:11:49,782 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 14:11:50,528 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 14:12:16,019 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 14:12:34,824 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 14:12:35,281 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 14:12:41,731 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 14:12:42,418 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 14:12:48,084 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-24 14:12:48,665 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-24 14:12:52,087 basehttp "GET /admin/ HTTP/1.1" 200 11110
+INFO 2024-06-24 14:12:55,354 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 14:12:55,378 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 14:13:02,194 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8500
+INFO 2024-06-24 14:13:02,214 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2024-06-24 14:13:06,098 log Internal Server Error: /admin/GanesanTeam/tracker/export/
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 830, in export_action
+    export_data = self.get_export_data(
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 773, in get_export_data
+    data = self.get_data_for_export(request, queryset, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\mixins.py", line 193, in get_data_for_export
+    export_data = cls.export(*args, queryset=queryset, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\resources.py", line 1137, in export
+    data.append(self.export_resource(obj))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\resources.py", line 1076, in export_resource
+    return [self.export_field(field, obj) for field in self.get_export_fields()]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\resources.py", line 1070, in export_field
+    return field.export(obj)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\fields.py", line 148, in export
+    return self.widget.render(value, obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaims\GanesanTeam\admin.py", line 34, in render
+    return value.strftime(self.format)
+                          ^^^^^^^^^^^
+AttributeError: 'CustomDateWidget' object has no attribute 'format'. Did you mean: 'formats'?
+ERROR 2024-06-24 14:13:06,103 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 500 117275
+INFO 2024-06-24 14:14:26,971 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 14:14:27,728 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 14:14:34,482 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-24 14:14:37,698 basehttp "GET /admin/ HTTP/1.1" 200 11110
+INFO 2024-06-24 14:14:40,659 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 14:14:40,683 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 14:14:44,047 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8500
+INFO 2024-06-24 14:14:44,066 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 14:14:48,008 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 5470
+INFO 2024-06-24 14:15:36,165 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 14:15:36,186 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 14:15:38,807 basehttp "GET /admin/GanesanTeam/tracker/import/ HTTP/1.1" 200 9146
+INFO 2024-06-24 14:15:38,830 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 14:15:44,660 basehttp "POST /admin/GanesanTeam/tracker/import/ HTTP/1.1" 200 10580
+INFO 2024-06-24 14:15:44,681 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 14:16:32,820 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 14:16:33,591 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 14:16:44,721 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 14:16:44,743 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2024-06-24 14:16:47,643 log Internal Server Error: /admin/GanesanTeam/tracker/export/
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 860, in export_action
+    ).get_user_visible_fields()
+      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\resources.py", line 1089, in get_user_visible_fields
+    return self.get_fields()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\resources.py", line 362, in get_fields
+    return [self.fields[f] for f in self.get_export_order()]
+            ~~~~~~~~~~~^^^
+KeyError: 'idclaimtype'
+ERROR 2024-06-24 14:16:47,646 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 500 96465
+INFO 2024-06-24 14:16:52,114 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+ERROR 2024-06-24 14:17:19,974 log Internal Server Error: /admin/GanesanTeam/tracker/export/
+Traceback (most recent call last):
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\admin.py", line 860, in export_action
+    ).get_user_visible_fields()
+      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\resources.py", line 1089, in get_user_visible_fields
+    return self.get_fields()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Web\Python\Physicalclaimsvenv\Lib\site-packages\import_export\resources.py", line 362, in get_fields
+    return [self.fields[f] for f in self.get_export_order()]
+            ~~~~~~~~~~~^^^
+KeyError: 'idclaimtype'
+ERROR 2024-06-24 14:17:19,975 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 500 96465
+INFO 2024-06-24 14:18:19,075 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 14:18:19,834 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 14:18:28,413 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 14:18:30,693 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8500
+INFO 2024-06-24 14:18:30,710 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 14:18:34,828 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 5470
+INFO 2024-06-24 14:19:50,380 autoreload C:\Web\Python\Physicalclaims\GanesanTeam\admin.py changed, reloading.
+INFO 2024-06-24 14:19:51,202 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 14:19:59,059 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 14:19:59,078 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 14:20:02,656 basehttp "GET /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 8504
+INFO 2024-06-24 14:20:02,676 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 14:20:06,602 basehttp "POST /admin/GanesanTeam/tracker/export/? HTTP/1.1" 200 5490
+INFO 2024-06-24 14:20:28,358 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 14:20:28,376 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 14:20:30,451 basehttp "GET /admin/GanesanTeam/tracker/import/ HTTP/1.1" 200 9150
+INFO 2024-06-24 14:20:30,473 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 14:20:36,397 basehttp "POST /admin/GanesanTeam/tracker/import/ HTTP/1.1" 200 12166
+INFO 2024-06-24 14:20:36,422 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 14:20:39,583 basehttp "POST /admin/GanesanTeam/tracker/process_import/ HTTP/1.1" 302 0
+INFO 2024-06-24 14:20:39,613 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17659
+INFO 2024-06-24 14:20:39,636 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 14:20:41,701 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 14:20:41,721 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 14:55:32,791 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 14:55:32,815 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2024-06-24 14:55:44,617 log Not Found: /reports
+WARNING 2024-06-24 14:55:44,618 basehttp "GET /reports HTTP/1.1" 404 2986
+INFO 2024-06-24 14:55:49,320 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-24 14:56:32,222 views ganesan.d@redingtongroup.com loggedin 2024-06-24 14:56:32.221384
+INFO 2024-06-24 14:56:32,269 basehttp "POST /index.html HTTP/1.1" 200 29468
+INFO 2024-06-24 15:01:13,456 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 15:01:31,021 basehttp "GET / HTTP/1.1" 200 3405
+WARNING 2024-06-24 15:01:31,288 log Not Found: /favicon.ico
+WARNING 2024-06-24 15:01:31,288 basehttp "GET /favicon.ico HTTP/1.1" 404 2998
+INFO 2024-06-24 15:01:34,291 basehttp "GET /admin/ HTTP/1.1" 200 11163
+INFO 2024-06-24 15:01:37,681 basehttp "GET /admin/GanesanTeam/additionalclaimsstatus/ HTTP/1.1" 200 10080
+INFO 2024-06-24 15:01:37,707 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 21:10:42,209 autoreload Watching for file changes with StatReloader
+INFO 2024-06-24 21:12:02,934 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-24 21:12:03,669 basehttp "GET /static/css/ruang-admin.min.css HTTP/1.1" 200 30266
+INFO 2024-06-24 21:12:03,670 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 55183
+INFO 2024-06-24 21:12:03,672 basehttp "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 175814
+INFO 2024-06-24 21:12:03,673 basehttp "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 87532
+INFO 2024-06-24 21:12:03,678 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 21:12:03,679 basehttp "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 78635
+INFO 2024-06-24 21:12:04,051 basehttp "GET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 200 2532
+INFO 2024-06-24 21:12:04,093 basehttp "GET /static/js/ruang-admin.min.js HTTP/1.1" 200 1386
+INFO 2024-06-24 21:12:04,233 basehttp "GET /static/font/Nunito-Regular.ttf HTTP/1.1" 200 108828
+WARNING 2024-06-24 21:12:04,611 log Not Found: /favicon.ico
+WARNING 2024-06-24 21:12:04,611 basehttp "GET /favicon.ico HTTP/1.1" 404 2998
+INFO 2024-06-24 21:12:12,699 views ganesan.d@redingtongroup.com loggedin 2024-06-24 21:12:12.699424
+INFO 2024-06-24 21:12:13,633 basehttp "POST /index.html HTTP/1.1" 200 29468
+INFO 2024-06-24 21:12:13,916 basehttp "GET /static/new/css/font-awesome.min.css HTTP/1.1" 200 31000
+INFO 2024-06-24 21:12:13,918 basehttp "GET /static/new/css/bootstrap.css HTTP/1.1" 200 192348
+INFO 2024-06-24 21:12:13,987 basehttp "GET /static/new/css/style.css HTTP/1.1" 200 22133
+INFO 2024-06-24 21:12:14,087 basehttp "GET /static/new/css/responsive.css HTTP/1.1" 200 2937
+INFO 2024-06-24 21:12:14,147 basehttp "GET /static/vendor/select2/dist/css/select2.min.css HTTP/1.1" 200 14966
+INFO 2024-06-24 21:12:14,161 basehttp "GET /static/new/js/custom.js HTTP/1.1" 200 2512
+INFO 2024-06-24 21:12:14,280 basehttp "GET /static/img/boy.png HTTP/1.1" 200 16834
+INFO 2024-06-24 21:12:14,349 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 74328
+INFO 2024-06-24 21:12:14,358 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2024-06-24 21:12:14,379 basehttp "GET /static/new/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+INFO 2024-06-24 21:12:45,198 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-06-24 21:12:45,364 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2204
+INFO 2024-06-24 21:12:45,464 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 20344
+INFO 2024-06-24 21:12:45,469 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619
+INFO 2024-06-24 21:12:45,477 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+INFO 2024-06-24 21:12:45,496 basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2024-06-24 21:12:45,497 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 18854
+INFO 2024-06-24 21:12:45,502 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-06-24 21:12:45,521 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+INFO 2024-06-24 21:12:45,657 basehttp "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2024-06-24 21:12:45,712 basehttp "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2024-06-24 21:12:52,282 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-06-24 21:12:52,325 basehttp "GET /admin/ HTTP/1.1" 200 11163
+INFO 2024-06-24 21:12:52,353 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2024-06-24 21:12:52,416 basehttp "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2024-06-24 21:12:52,417 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-06-24 21:12:52,418 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-06-24 21:12:52,419 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2024-06-24 21:12:55,205 basehttp "GET /admin/GanesanTeam/tracker/ HTTP/1.1" 200 17497
+INFO 2024-06-24 21:12:55,316 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-06-24 21:12:55,319 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8919
+INFO 2024-06-24 21:12:55,320 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-06-24 21:12:55,325 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2024-06-24 21:12:55,327 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2024-06-24 21:12:55,330 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2024-06-24 21:12:55,396 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-06-24 21:12:55,418 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+INFO 2024-06-24 21:12:55,426 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6395
+INFO 2024-06-24 21:12:55,432 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2024-06-24 21:12:55,495 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 966
+INFO 2024-06-24 21:12:55,567 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-06-24 21:13:00,315 basehttp "GET / HTTP/1.1" 200 3405
+INFO 2024-06-24 21:13:07,963 views ganesan.d@redingtongroup.com loggedin 2024-06-24 21:13:07.963045
+INFO 2024-06-24 21:13:08,087 basehttp "POST /index.html HTTP/1.1" 200 29468
+INFO 2024-06-24 21:13:08,124 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 21:17:20,052 basehttp "GET /home.html HTTP/1.1" 200 29641
+INFO 2024-06-24 21:17:20,071 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 21:36:05,462 basehttp "GET /home.html HTTP/1.1" 200 29975
+INFO 2024-06-24 21:36:05,511 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 21:37:00,857 basehttp "GET /home.html HTTP/1.1" 200 29644
+INFO 2024-06-24 21:45:58,444 basehttp "GET /home.html HTTP/1.1" 200 30474
+INFO 2024-06-24 21:45:58,469 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 21:47:50,413 basehttp "GET /home.html HTTP/1.1" 200 30473
+INFO 2024-06-24 21:47:50,439 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 21:49:37,777 basehttp "GET /home.html HTTP/1.1" 200 30460
+INFO 2024-06-24 21:49:37,805 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 21:50:53,101 basehttp "GET /home.html HTTP/1.1" 200 30469
+INFO 2024-06-24 21:50:53,195 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 21:53:29,120 basehttp "GET /home.html HTTP/1.1" 200 31478
+INFO 2024-06-24 21:53:29,140 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 21:54:09,440 basehttp "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 311949
+INFO 2024-06-24 21:54:09,476 basehttp "GET /static/new/css/style.css.map HTTP/1.1" 200 18479
+WARNING 2024-06-24 21:54:09,484 basehttp "GET /static/new/css/bootstrap.css.map HTTP/1.1" 404 1834
+INFO 2024-06-24 21:58:40,924 basehttp "GET /home.html HTTP/1.1" 200 30469
+INFO 2024-06-24 21:58:40,954 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 21:58:56,479 basehttp "GET /home.html HTTP/1.1" 200 30469
+INFO 2024-06-24 21:59:18,874 basehttp "GET /home.html HTTP/1.1" 200 30469
+INFO 2024-06-24 21:59:25,181 basehttp "GET /home.html HTTP/1.1" 200 30469
+INFO 2024-06-24 22:00:05,312 basehttp "GET /home.html HTTP/1.1" 200 30417
+INFO 2024-06-24 22:00:05,339 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 22:01:07,128 basehttp "GET /home.html HTTP/1.1" 200 30429
+INFO 2024-06-24 22:01:07,154 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 22:01:22,236 basehttp "GET /home.html HTTP/1.1" 200 30417
+INFO 2024-06-24 22:01:34,603 basehttp "GET /home.html HTTP/1.1" 200 30440
+INFO 2024-06-24 22:03:17,578 basehttp "GET /home.html HTTP/1.1" 200 30537
+INFO 2024-06-24 22:03:17,594 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 22:04:02,242 basehttp "GET /home.html HTTP/1.1" 200 30548
+WARNING 2024-06-24 22:04:13,949 basehttp "GET /static/new/css/bootstrap.css.map HTTP/1.1" 404 1834
+INFO 2024-06-24 22:05:56,331 basehttp "GET /home.html HTTP/1.1" 200 30564
+INFO 2024-06-24 22:05:56,379 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+WARNING 2024-06-24 22:05:56,531 basehttp "GET /static/new/css/bootstrap.css.map HTTP/1.1" 404 1834
+INFO 2024-06-24 22:06:21,891 basehttp "GET /home.html HTTP/1.1" 200 30564
+WARNING 2024-06-24 22:06:22,019 basehttp "GET /static/new/css/bootstrap.css.map HTTP/1.1" 404 1834
+INFO 2024-06-24 22:09:54,067 basehttp "GET /home.html HTTP/1.1" 200 30564
+INFO 2024-06-24 22:09:54,093 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 22:10:21,761 basehttp "GET /home.html HTTP/1.1" 200 30581
+INFO 2024-06-24 22:10:42,610 basehttp "GET /home.html HTTP/1.1" 200 30581
+INFO 2024-06-24 22:11:07,454 basehttp "GET /home.html HTTP/1.1" 200 30581
+INFO 2024-06-24 22:11:07,466 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 22:11:28,045 basehttp "GET /home.html HTTP/1.1" 200 30582
+WARNING 2024-06-24 22:11:41,062 basehttp "GET /static/new/css/bootstrap.css.map HTTP/1.1" 404 1834
+INFO 2024-06-24 22:12:49,422 basehttp "GET /home.html HTTP/1.1" 200 30582
+INFO 2024-06-24 22:12:49,439 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+WARNING 2024-06-24 22:12:58,073 basehttp "GET /static/new/css/bootstrap.css.map HTTP/1.1" 404 1834
+INFO 2024-06-24 22:14:58,285 basehttp "GET /home.html HTTP/1.1" 200 30735
+INFO 2024-06-24 22:14:58,319 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 22:15:25,191 basehttp "GET /home.html HTTP/1.1" 200 30732
+INFO 2024-06-24 22:16:00,977 basehttp "GET /home.html HTTP/1.1" 200 30733
+INFO 2024-06-24 22:16:01,005 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 22:16:20,625 basehttp "GET /home.html HTTP/1.1" 200 30678
+INFO 2024-06-24 22:16:39,032 basehttp "GET /home.html HTTP/1.1" 200 30659
+INFO 2024-06-24 22:16:58,939 basehttp "GET /home.html HTTP/1.1" 200 30601
+INFO 2024-06-24 22:17:02,079 basehttp "GET /home.html HTTP/1.1" 200 30601
+INFO 2024-06-24 22:17:02,097 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 22:17:11,996 basehttp "GET /home.html HTTP/1.1" 200 30659
+INFO 2024-06-24 22:17:25,367 basehttp "GET /home.html HTTP/1.1" 200 30659
+INFO 2024-06-24 22:19:22,186 basehttp "GET /home.html HTTP/1.1" 200 30955
+INFO 2024-06-24 22:19:22,213 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 22:21:14,822 basehttp "GET /home.html HTTP/1.1" 200 31202
+INFO 2024-06-24 22:21:14,846 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 22:22:07,843 basehttp "GET /home.html HTTP/1.1" 200 31226
+INFO 2024-06-24 22:22:57,521 basehttp "GET /home.html HTTP/1.1" 200 31293
+INFO 2024-06-24 22:22:57,536 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 22:23:17,120 basehttp "GET /home.html HTTP/1.1" 200 31308
+INFO 2024-06-24 22:24:44,005 basehttp "GET /home.html HTTP/1.1" 200 31215
+INFO 2024-06-24 22:24:44,030 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 22:25:08,337 basehttp "GET /home.html HTTP/1.1" 200 31246
+INFO 2024-06-24 22:25:19,519 basehttp "GET /home.html HTTP/1.1" 200 31246
+INFO 2024-06-24 22:25:21,867 basehttp "GET /home.html HTTP/1.1" 200 31246
+INFO 2024-06-24 22:25:22,280 basehttp "GET /home.html HTTP/1.1" 200 31246
+INFO 2024-06-24 22:25:22,706 basehttp "GET /home.html HTTP/1.1" 200 31246
+INFO 2024-06-24 22:25:37,736 basehttp "GET /home.html HTTP/1.1" 200 31268
+INFO 2024-06-24 22:25:46,254 basehttp "GET /home.html HTTP/1.1" 200 31280
+INFO 2024-06-24 22:25:46,279 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 22:26:17,944 basehttp "GET /home.html HTTP/1.1" 200 31203
+INFO 2024-06-24 22:27:23,317 basehttp "GET /home.html HTTP/1.1" 200 31229
+INFO 2024-06-24 22:27:23,344 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 22:27:59,802 basehttp "GET /home.html HTTP/1.1" 200 31283
+INFO 2024-06-24 22:28:30,182 basehttp "GET /home.html HTTP/1.1" 200 31310
+INFO 2024-06-24 22:28:30,198 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 22:28:54,504 basehttp "GET /home.html HTTP/1.1" 200 31325
+INFO 2024-06-24 22:29:05,257 basehttp "GET /home.html HTTP/1.1" 200 31325
+INFO 2024-06-24 22:29:15,672 basehttp "GET /home.html HTTP/1.1" 200 31325
+INFO 2024-06-24 22:29:26,987 basehttp "GET /home.html HTTP/1.1" 200 31310
+INFO 2024-06-24 22:29:35,492 views Tracker object (14) 2024-06-24 22:29:35.492660
+INFO 2024-06-24 22:29:35,492 basehttp "POST /physicalclaimformsubmit.html HTTP/1.1" 200 19
+INFO 2024-06-24 22:29:52,518 basehttp "GET /home.html HTTP/1.1" 200 31310
+INFO 2024-06-24 22:29:52,532 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 22:29:55,746 basehttp "GET /home.html HTTP/1.1" 200 31310
+INFO 2024-06-24 22:30:16,278 basehttp "GET /home.html HTTP/1.1" 200 3405
+INFO 2024-06-24 22:30:16,692 basehttp "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 55183
+INFO 2024-06-24 22:30:16,693 basehttp "GET /static/css/ruang-admin.min.css HTTP/1.1" 200 30266
+INFO 2024-06-24 22:30:16,697 basehttp "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 87532
+INFO 2024-06-24 22:30:16,739 basehttp "GET /static/img/logo/Redserv.png HTTP/1.1" 304 0
+INFO 2024-06-24 22:30:16,755 basehttp "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 175814
+INFO 2024-06-24 22:30:17,617 basehttp "GET /static/js/ruang-admin.min.js HTTP/1.1" 200 1386
+INFO 2024-06-24 22:30:17,640 basehttp "GET /static/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 200 2532
+INFO 2024-06-24 22:30:17,706 basehttp "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 78635
+INFO 2024-06-24 22:30:17,717 basehttp "GET /static/font/Nunito-Regular.ttf HTTP/1.1" 200 108828
+WARNING 2024-06-24 22:30:17,794 log Not Found: /favicon.ico
+WARNING 2024-06-24 22:30:17,794 basehttp "GET /favicon.ico HTTP/1.1" 404 2998
+INFO 2024-06-24 22:30:24,988 views ganesan.d@redingtongroup.com loggedin 2024-06-24 22:30:24.988159
+INFO 2024-06-24 22:30:25,782 basehttp "POST /index.html HTTP/1.1" 200 31310
+INFO 2024-06-24 22:30:25,803 basehttp "GET /static/new/css/bootstrap.css HTTP/1.1" 200 192348
+INFO 2024-06-24 22:30:25,828 basehttp "GET /static/vendor/select2/dist/css/select2.min.css HTTP/1.1" 200 14966
+INFO 2024-06-24 22:30:25,868 basehttp "GET /static/new/css/responsive.css HTTP/1.1" 200 2937
+INFO 2024-06-24 22:30:25,868 basehttp "GET /static/img/boy.png HTTP/1.1" 200 16834
+INFO 2024-06-24 22:30:25,869 basehttp "GET /static/new/css/font-awesome.min.css HTTP/1.1" 200 31000
+INFO 2024-06-24 22:30:25,870 basehttp "GET /static/new/css/style.css HTTP/1.1" 200 22133
+INFO 2024-06-24 22:30:25,897 basehttp "GET /static/new/js/custom.js HTTP/1.1" 200 2512
+INFO 2024-06-24 22:30:26,721 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+INFO 2024-06-24 22:30:26,726 basehttp "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 74328
+INFO 2024-06-24 22:30:26,728 basehttp "GET /static/new/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
