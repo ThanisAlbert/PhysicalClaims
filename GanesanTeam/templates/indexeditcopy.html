@@ -1,0 +1,1296 @@
+{% load static %}
+{% load custom_filters %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link href="{% static 'img/logo/Redserv.png' %}" rel="icon">
+  <title>Physical Claims</title>
+
+
+  <link href="{% static 'vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet" type="text/css">
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+   <link href="{% static 'vendor/select2/dist/css/select2.min.css' %}" rel="stylesheet" type="text/css">
+  <link href="{% static 'css/ruang-admin.min.css' %}" rel="stylesheet">
+
+
+   <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="{% static 'new/css/bootstrap.css' %}" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+
+  <!-- font awesome style -->
+  <link href="{% static 'new/css/font-awesome.min.css' %}"  rel="stylesheet" />
+
+  <!-- nice select -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
+
+  <!-- datepicker -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css">
+  <!-- Custom styles for this template -->
+
+
+  <link href="{% static 'new/css/style.css' %}" rel="stylesheet" />
+  <!-- responsive style -->
+
+
+  <link href="{% static 'new/css/responsive.css' %}" rel="stylesheet" />
+
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+
+  <link href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.css" rel="stylesheet" />
+
+
+    <style>
+        .progress-container {
+            display: flex;
+            font-size:8px;
+            align-items: center;
+            list-style-type: none;
+        }
+
+        .progress-step {
+            flex: 1;
+            text-align: center;
+            padding: 6px;
+            background-color: #e0e0e0;
+            border-right: 1px solid #fff;
+            position: relative;
+            font-size:10px;
+        }
+        .progress-step:first-child {
+            border-radius: 5px 0 0 5px;
+        }
+        .progress-step:last-child {
+            border-radius: 0 5px 5px 0;
+            border-right: none;
+        }
+        .progress-step.completed {
+            background-color: #4caf50;
+            color: white;
+        }
+        .progress-step::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            border-right: 10px solid transparent;
+            border-left: 10px solid #e0e0e0;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            z-index: 1;
+        }
+        .progress-step.completed::after {
+            border-left-color: #4caf50;
+        }
+        .progress-step:last-child::after {
+            display: none;
+        }
+    </style>
+
+
+
+  <style>
+
+.select2-container .select2-selection--single{
+    height:35px !important;
+    font-size:12px;
+}
+.select2-container--default .select2-selection--single{
+     border: 1px solid #00c6a9 !important;
+     border-radius: 0px !important;
+}
+
+     .form-control{
+      height:10px;
+      }
+
+      .nice-select {
+      font-size: 12px;
+      }
+
+      .separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 0.5px solid #dcdcdc;
+}
+
+.separator:not(:empty)::before {
+  margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: .25em;
+}
+
+  </style>
+
+    <style>
+      .nice-select.dt-input {
+    width: 80px;
+    }
+     label[for="dt-length-0"] {
+            font-size: 12px;
+        }
+     label[for="dt-search-0"]{
+      font-size: 12px;
+     }
+     #example_info{
+      font-size: 12px;
+     }
+     .dt-paging-button{
+      font-size: 12px;
+     }
+
+      .table-container {
+            width: auto;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+            font-size: 12px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+
+         .wide-column {
+            width: 400px; /* Adjust the width as needed */
+            padding-right:100px;
+        }
+
+  </style>
+
+ <style> body  {opacity:0;}</style>
+ <script>
+  window.onload = function() {setTimeout(function(){document.body.style.opacity="100";},500);};
+ </script>
+
+  <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            {% if condition %}
+                window.scrollTo({
+                    top: document.body.scrollHeight,
+                    behavior: 'smooth'
+                });
+            {% endif %}
+        });
+    </script>
+
+
+</head>
+
+<body id="page-top">
+  <div id="wrapper">
+    <!-- Sidebar -->
+    <ul class="navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
+      <a style="background-color: #2EA835;"  class="sidebar-brand d-flex align-items-center justify-content-center" href="{% url 'physicalclaims:home' %}">
+        <div class="sidebar-brand-icon">
+          <img src="{% static 'img/logo/Redserv.png' %}">
+        </div>
+        <div class="sidebar-brand-text mx-3"></div>
+      </a>
+      <hr class="sidebar-divider my-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="{% url 'physicalclaims:home' %}">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>PhysicalClaims</span></a>
+      </li>
+      <hr class="sidebar-divider">
+      <div class="sidebar-heading">
+        Features
+      </div>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBootstrap"
+          aria-expanded="true" aria-controls="collapseBootstrap">
+          <i class="far fa-fw fa-window-maximize"></i>
+          <span>Home</span>
+        </a>
+        <div id="collapseBootstrap" class="collapse" aria-labelledby="headingBootstrap" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Home</h6>
+            <!--
+            <a class="collapse-item" href="alerts.html">Alerts</a>
+            <a class="collapse-item" href="buttons.html">Buttons</a>
+            -->
+
+          </div>
+        </div>
+      </li>
+
+      <hr class="sidebar-divider">
+
+      <div class="version" id="version-ruangadmin"></div>
+    </ul>
+    <!-- Sidebar -->
+    <div id="content-wrapper" class="d-flex flex-column">
+      <div id="content">
+        <!-- TopBar -->
+        <nav style="background-color: #2EA835;" class="navbar navbar-expand navbar-light bg-navbar topbar mb-4 static-top">
+          <button id="sidebarToggleTop" class="btn btn-link rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-search fa-fw"></i>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                aria-labelledby="searchDropdown">
+                <form class="navbar-search">
+                  <div class="input-group">
+                    <input type="text" class="form-control bg-light border-1 small" placeholder="What do you want to look for?"
+                      aria-label="Search" aria-describedby="basic-addon2" style="border-color: #3f51b5;">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button">
+                        <i class="fas fa-search fa-sm"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li>
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-bell fa-fw"></i>
+                <span class="badge badge-danger badge-counter">1+</span>
+              </a>
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                aria-labelledby="alertsDropdown">
+                <h6 class="dropdown-header">
+                  Contact Us
+                </h6>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-primary">
+                      <i class="fas fa-file-alt text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500"></div>
+                    <span class="font-weight-bold">Please contact rathina.moorthy@redingtongroup.com for any updates</span>
+                  </div>
+                </a>
+
+                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+              </div>
+            </li>
+
+            <div class="topbar-divider d-none d-sm-block"></div>
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <img class="img-profile rounded-circle" src="{% static 'img/boy.png' %}" style="max-width: 60px">
+                <span class="ml-2 d-none d-lg-inline text-white small">Hi {{username}}</span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Profile
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Settings
+                </a>
+
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="javascript:void(0);" data-toggle="modal" data-target="#logoutModal">
+                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Logout
+                </a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <!-- Topbar -->
+
+
+        <section style="color:black;padding-top:0px;" class="book_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+
+
+         <ul class="progress-container">
+        <li class="progress-step completed">Basic Info</li>
+        <li class="progress-step ">Case Info</li>
+        <li class="progress-step">Customer Info</li>
+        <li class="progress-step">Product Info</li>
+        <li class="progress-step">Reversal Info</li>
+        <li class="progress-step">Return Info</li>
+        <li class="progress-step">Credit Info</li>
+        <li class="progress-step">System</li>
+        </ul>
+
+         <!--
+         <ul class="progress-container">
+          <li class="progress-step completed">Step 1</li>
+          <li class="progress-step">Step 2</li>
+          <li class="progress-step">Step 3</li>
+          <li class="progress-step">Step 4</li>
+          <li class="progress-step">Step 5</li>
+         </ul>-->
+
+
+            <form style="height:400px;"  method="post" action ="{% url 'physicalclaims:claimformupdate' %}">
+
+             {% csrf_token %}
+
+             <input type="hidden" id="hiddenid" name="hiddenid" value="{{id}}">
+
+            <div id="sectionA">
+
+
+                <div class="form-row" >
+
+                          <div class="form-group col-lg-3">
+                            <label style="font-size:12px;" >Department</label>
+                            <select name="department" id="department" style="border: 1px solid #FF0000;height:100px" class="form-control select2">
+                                <option value="" selected></option>
+                                {% for Department in Departments %}
+                                    {% if Department|cut:" " == ClaimsTracker.Department|cut:" " %}
+                                    <option value="{{Department}}" selected>{{Department}}</option>
+                                    {% else %}
+                                    <option value="{{Department}}">{{Department}}</option>
+                                    {% endif %}
+                               {% endfor %}
+                            </select>
+                         </div>
+
+                          <div class="form-group col-lg-3">
+                            <label style="font-size:12px;"  for="division">Divisions </label>
+
+                             <select name="division" id="division" style="border: 1px solid #FF0000;height:100px" class="form-control select2">
+                                <option value="" selected></option>
+                                 {% for Divisions in Divisionss %}
+                                    {% if Divisions|cut:" " == ClaimsTracker.Divisions|cut:" " %}
+                                    <option value="{{Divisions}}" selected>{{Divisions}}</option>
+                                    {% else %}
+                                    <option value="{{Divisions}}">{{Divisions}}</option>
+                                    {% endif %}
+                                {% endfor %}
+                            </select>
+                          </div>
+
+                          <div class="form-group col-lg-3">
+                            <label style="font-size:12px;" for="claimtype">Claim Type</label>
+
+                             <select name="claimtype" id="claimtype" style="border: 1px solid #FF0000;height:100px" class="form-control select2">
+                                 <option value="" selected></option>
+                                 {% for ClaimType in ClaimTypes %}
+                                    {% if ClaimType|cut:" " == ClaimsTracker.ClaimType|cut:" " %}
+                                    <option value="{{ClaimType}}" selected>{{ClaimType}}</option>
+                                    {% else %}
+                                    <option value="{{ClaimType}}">{{ClaimType}}</option>
+                                    {% endif %}
+                                {% endfor %}
+                            </select>
+                          </div>
+
+
+                          <div class="form-group col-lg-3">
+                            <label style="font-size:12px;" for="claimtype">Regions</label>
+
+                             <select name="regions" id="regions" style="border: 1px solid #FF0000;height:100px" class="form-control select2">
+                                <option value="" selected></option>
+                                 {% for Region in Regionss %}
+                                    {% if Region|cut:" " == ClaimsTracker.Regions|cut:" " %}
+                                    <option value="{{Region}}" selected>{{Region}}</option>
+                                    {% else %}
+                                    <option value="{{Region}}">{{Region}}</option>
+                                    {% endif %}
+                                 {% endfor %}
+                            </select>
+
+                          </div>
+
+                </div>
+
+                <div class="form-row" >
+
+                      <div class="form-group col-lg-3">
+                         <label style="font-size:12px;"  for="requestfrom">Request From </label>
+                         <input style="font-size:12px;"  type="text"  class="form-control" value="{{ClaimsTracker.RequestFrom|none_to_empty}}" name="requestfrom" id="requestfrom" placeholder="">
+                      </div>
+
+                      <div class="form-group col-lg-3">
+                         <label style="font-size:12px;"  for="originator">Originator </label>
+                         <input style="font-size:12px;"  type="text" value="{{ClaimsTracker.Originator|none_to_empty}}" class="form-control" name="originator" id="originator" placeholder="">
+                      </div>
+
+
+                      <div class="form-group col-lg-3">
+                         <label style="font-size:12px;"  for="claimdate">Claimed Date</label>
+                         <div class="input-group date"  >
+                              <input style="color:black;font-size:13px;"
+               data-date-format="dd-mm-yyyy"
+               id="claimdate"
+               name="claimdate"
+               type="text"
+               class="form-control"
+               readonly>
+                              <span class="input-group-addon date_icon">
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                              </span>
+                         </div>
+                      </div>
+
+
+                </div>
+
+                <button type="button" style="border-width: 1px;font-size:12px;" onclick="nextSection('sectionA', 'sectionB')">Next</button>
+
+            </div>
+
+
+            <div id="sectionB" style="display: none;">
+
+
+
+                   <div class="form-row ">
+
+                        <div class="form-group col-lg-3">
+                        <label style="font-size:12px;" for="ClaimRef">Claim Ref #</label>
+                        <input type="text" style="color:black;font-size:13px;" class="form-control"  value="{{ClaimsTracker.ClaimRefNumber|none_to_empty}}" id="ClaimRef" name="ClaimRef" placeholder="">
+                        </div>
+
+                        <div class="form-group col-lg-3">
+                        <label style="font-size:12px;" for="ponum">PO #</label>
+                        <input type="text" style="color:black;font-size:13px;" class="form-control" value="{{ClaimsTracker.Ponumber|none_to_empty}}" id="ponum" name="ponum" placeholder="">
+                        </div>
+
+                       <div class="form-group col-lg-3">
+                       <label style="font-size:12px;" for="CBN">CBN</label>
+                       <input type="text" style="color:black;font-size:13px;" class="form-control" value="{{ClaimsTracker.cbn|none_to_empty}}" id="CBN" name="CBN" placeholder="">
+                       </div>
+
+                       <div class="form-group col-lg-3">
+                       <label style="font-size:12px;" for="hporder">HP Order</label>
+                       <input type="text" style="color:black;font-size:13px;" class="form-control" value="{{ClaimsTracker.hporder|none_to_empty}}"  id="hporder" name="hporder" placeholder="">
+                       </div>
+
+                       <button type="button" style="border-width: 1px; font-size:12px;" onclick="prevSection('sectionB', 'sectionA')">Previous</button>
+                        <button type="button" style="border-width: 1px; font-size:12px;" onclick="nextSection('sectionB', 'sectionC')">Next</button>
+
+                    </div>
+
+             </div>
+
+
+              <div id="sectionC" style="display: none;">
+
+
+
+                   <div class="form-row ">
+
+                        <div class="form-group col-lg-3">
+                          <label style="font-size:12px;"  for="customerreqdate">Customer requested date</label>
+                            <div class="input-group date"  >
+                              <input style="color:black;font-size:13px;" data-date-format="dd-mm-yyyy" id="customerreqdate" name="customerreqdate"  type="text" style="color:black;" class="form-control" readonly>
+                              <span class="input-group-addon date_icon">
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                              </span>
+                            </div>
+                        </div>
+
+                        <div class="form-group col-lg-3">
+                        <label style="font-size:12px;" for="PartnerCustomername">Partner/Customername</label>
+                        <input type="text" style="color:black;font-size:13px;" class="form-control" value="{{ClaimsTracker.Partner_Customername|none_to_empty}}" id="PartnerCustomername" name="PartnerCustomername" placeholder="">
+                        </div>
+
+                       <div class="form-group col-lg-3">
+                       <label style="font-size:12px;" for="CustomerCode">Customer Code</label>
+                       <input type="text" style="color:black;font-size:13px;" class="form-control" value="{{ClaimsTracker.CustomerCode|none_to_empty}}" id="CustomerCode" name="CustomerCode" placeholder="">
+                       </div>
+
+                       <div class="form-group col-lg-3">
+                       <label style="font-size:12px;" for="hporder">Partner location</label>
+                       <input type="text" style="color:black;font-size:13px;" class="form-control" value="{{ClaimsTracker.Partner_location|none_to_empty}}" id="Partnerlocation" name="Partnerlocation" placeholder="">
+                       </div>
+
+                    </div>
+
+
+                    <div class="form-row ">
+
+                        <div class="form-group col-lg-3">
+                        <label style="font-size:12px;" for="Customerreference">Customer reference #</label>
+                        <input type="text" style="color:black;font-size:13px;" class="form-control" id="Customerreference" value="{{ClaimsTracker.CustomerReference|none_to_empty}}" name="Customerreference" placeholder="">
+                        </div>
+
+                        <div class="form-group col-lg-3">
+                        <label style="font-size:12px;" for="Redingtoninvoice">Redington invoice #</label>
+                        <input type="text" style="color:black;font-size:13px;" class="form-control"  value="{{ClaimsTracker.RedingtonInvoice|none_to_empty}}" id="Redingtoninvoice" name="Redingtoninvoice" placeholder="">
+                        </div>
+
+                       <div class="form-group col-lg-3">
+                       <label style="font-size:12px;" for="Redingtoninvoicedate">Redington invoice date</label>
+                       <div class="input-group date"  >
+                           <input style="color:black;font-size:13px;" data-date-format="dd-mm-yyyy" id="Redingtoninvoicedate" name="Redingtoninvoicedate"  type="text" style="color:black;" class="form-control" readonly>
+                           <span class="input-group-addon date_icon">
+                              <i class="fa fa-calendar" aria-hidden="true"></i>
+                           </span>
+                        </div>
+
+                       </div>
+
+                       <div class="form-group col-lg-3">
+                       <label style="font-size:12px;" for="SellunitPrice">Sell unit Price </label>
+                       <input type="text" style="color:black;font-size:13px;" class="form-control" value="{{ClaimsTracker.SellUnitPrice|none_to_empty}}"    id="SellunitPrice" name="SellunitPrice" placeholder="">
+                       </div>
+
+                    </div>
+
+
+                    <div class="form-row ">
+
+                        <div class="form-group col-lg-3">
+                        <label style="font-size:12px;" for="TotalSellPrice">Total Sell Price</label>
+                        <input type="text" style="color:black;font-size:13px;" class="form-control" id="TotalSellPrice" value="{{ClaimsTracker.TotalSellPrice|none_to_empty}}"  name="TotalSellPrice" placeholder="">
+                        </div>
+
+                        <div class="form-group col-lg-3">
+                        <label style="font-size:12px;" for="Currency">Currency</label>
+
+                        <select name="Currency" id="Currency" style="width:220px;border: 1px solid #FF0000;height:100px" class="form-control select2">
+                                   <option value="" selected></option>
+                                   {% for Currency in Currencys %}
+                                        {% if Currency|cut:" " == ClaimsTracker.Currency|cut:" " %}
+                                        <option value="{{Currency}}" selected>{{Currency}}</option>
+                                        {% else %}
+                                        <option value="{{Currency}}">{{Currency}}</option>
+                                        {% endif %}
+                                    {% endfor %}
+                        </select>
+
+
+
+                        </div>
+
+                       <div class="form-group col-lg-3">
+                       <label style="font-size:12px;" for="CustomerPRFNo">Customer PRF No</label>
+                       <input type="text" style="color:black;font-size:13px;" class="form-control" id="CustomerPRFNo" value="{{ClaimsTracker.Customer_prf_Number|none_to_empty}}" name="CustomerPRFNo" placeholder="">
+                       </div>
+
+                    </div>
+
+
+
+                    <button type="button" style="border-width: 1px; font-size:12px;" onclick="prevSection('sectionC', 'sectionB')">Previous</button>
+                    <button type="button" style="border-width: 1px; font-size:12px;" onclick="nextSection('sectionC', 'sectionD')">Next</button>
+
+             </div>
+
+
+              <div id="sectionD" style="display: none;">
+
+
+                  <div class="form-row ">
+
+                       <div class="form-group col-lg-3">
+                           <div class="row">
+                            <label style="font-size:12px;margin-left:20px;" >Vendors(Brands)</label>
+                           </div>
+
+                           <div class="row">
+                              <div class="col-md-12" style="margin-left:2px;">
+                                <select name="vendors" id="vendors" style="width:220px;border: 1px solid #FF0000;height:100px" class="form-control select2">
+                                    <option value="" selected></option>
+                                    {% for vendor in Vendors_Brandss %}
+                                        {% if vendor|cut:" " == ClaimsTracker.Vendors_Brands|cut:" " %}
+                                        <option value="{{vendor}}" selected>{{vendor}}</option>
+                                        {% else %}
+                                        <option value="{{vendor}}">{{vendor}}</option>
+                                        {% endif %}
+                                    {% endfor %}
+                                </select>
+                              </div>
+                           </div>
+                       </div>
+
+                        <div class="form-group col-lg-3">
+                            <div class="row">
+                            <label style="font-size:12px;margin-left:20px;" >Category</label>
+                           </div>
+
+                           <div class="row">
+                              <div class="col-md-12" style="margin-left:2px;">
+
+                                  <select name="Category" id="Category" style="width:220px;border: 1px solid #FF0000;height:100px" class="form-control select2">
+                                    <option value="" selected></option>
+                                      {% for Category in Categorys %}
+                                        {% if Category|cut:" " == ClaimsTracker.Category|cut:" " %}
+                                        <option value="{{Category}}" selected>{{Category}}</option>
+                                        {% else %}
+                                        <option value="{{Category}}">{{Category}}</option>
+                                        {% endif %}
+                                    {% endfor %}
+                                </select>
+                              </div>
+                           </div>
+                       </div>
+
+                        <div style="margin-bottom:10px;" class="form-group col-lg-3">
+                        <label style="font-size:12px;margin-bottom:3px;" for="Part">Part #</label>
+                        <input type="text" value="{{ClaimsTracker.Partnumber|none_to_empty}}" style="color:black;font-size:13px;margin-bottom:10px;" class="form-control" id="Part" name="Part" placeholder="">
+                        </div>
+
+                        <div class="form-group col-lg-3">
+                        <label style="font-size:12px;margin-bottom:3px;" for="Qty">Qty</label>
+                        <input type="text" value="{{ClaimsTracker.Qty|none_to_empty}}" style="color:black;font-size:13px;" class="form-control" id="Qty" name="Qty" placeholder="">
+                        </div>
+
+                  </div>
+
+
+                  <div class="form-row ">
+
+                        <div class="form-group col-lg-3">
+                        <label style="font-size:12px;" for="PackID">Pack ID</label>
+                        <input type="text" value="{{ClaimsTracker.PackId|none_to_empty}}"  style="color:black;font-size:13px;" class="form-control" id="PackID" name="PackID" placeholder="">
+                        </div>
+
+
+                        <div class="form-group col-lg-3">
+                        <label style="font-size:12px;" for="BoxID">Box ID</label>
+                        <input type="text" value="{{ClaimsTracker.BoxId|none_to_empty}}" style="color:black;font-size:13px;" class="form-control" id="BoxID" name="BoxID" placeholder="">
+                        </div>
+
+                        <div class="form-group col-lg-3">
+                        <label style="font-size:12px;" for="SerilizedNonSerilized">Serilized/Non-Serilized</label>
+
+                        <select name="SerilizedNonSerilized" id="SerilizedNonSerilized" style="width:220px;border: 1px solid #FF0000;height:100px" class="form-control select2">
+                            <option value="" selected></option>
+                            {% for Serilized in Serilizeds %}
+                                        {% if Serilized|cut:" " == ClaimsTracker.Serilized_NonSerilized|cut:" " %}
+                                        <option value="{{Serilized}}" selected>{{Serilized}}</option>
+                                        {% else %}
+                                        <option value="{{Serilized}}">{{Serilized}}</option>
+                                        {% endif %}
+                                    {% endfor %}
+                        </select>
+
+
+
+                        </div>
+
+                        <div class="form-group col-lg-3">
+                        <label style="font-size:12px;" for="Serial">Serial #</label>
+                        <input type="text" value="{{ClaimsTracker.SerialNumber|none_to_empty}}" style="color:black;font-size:13px;" class="form-control" id="Serial" name="Serial" placeholder="">
+                        </div>
+
+                  </div>
+
+                  <div class="form-row ">
+
+                        <div class="form-group col-lg-3">
+                        <label style="font-size:12px;" for="unitprice">Unit price</label>
+                        <input type="text" value="{{ClaimsTracker.UnitPrice|none_to_empty}}" style="color:black;font-size:13px;" class="form-control" id="unitprice" name="unitprice" placeholder="">
+                        </div>
+
+                        <div class="form-group col-lg-3">
+                        <label style="font-size:12px;" for="BoxID">Total Amount $</label>
+                        <input type="text" value="{{ClaimsTracker.TotalAmount|none_to_empty}}"  style="color:black;font-size:13px;" class="form-control" id="TotalAmount$" name="TotalAmount$" placeholder="">
+                        </div>
+
+                        <div class="form-group col-lg-3">
+                        <label style="font-size:12px;" for="VendorInvNo">Vendor Inv No</label>
+                        <input type="text" value="{{ClaimsTracker.VendorInvNo|none_to_empty}}" style="color:black;font-size:13px;" class="form-control" id="VendorInvNo" name="VendorInvNo" placeholder="">
+                        </div>
+
+                        <div class="form-group col-lg-3">
+                        <label style="font-size:12px;" for="ecidatenew">ECI date</label>
+                        <div class="input-group date"  >
+                           <input style="color:black;font-size:13px;" data-date-format="dd-mm-yyyy" id="ecidatenew" name="ecidatenew"  type="text" style="color:black;" class="form-control" readonly>
+                           <span class="input-group-addon date_icon">
+                              <i class="fa fa-calendar" aria-hidden="true"></i>
+                           </span>
+                        </div>
+                        </div>
+
+                  </div>
+
+                  <div class="form-row ">
+
+                        <div class="form-group col-lg-3">
+                        <label style="font-size:12px;" for="Duedate">Duedate/Expirydate</label>
+
+                        <div class="input-group date"  >
+                           <input style="color:black;font-size:13px;" data-date-format="dd-mm-yyyy" id="Duedate" name="Duedate"  type="text" style="color:black;" class="form-control" readonly>
+                           <span class="input-group-addon date_icon">
+                              <i class="fa fa-calendar" aria-hidden="true"></i>
+                           </span>
+                        </div>
+
+                        </div>
+
+                        <div class="form-group col-lg-3">
+                        <label style="font-size:12px;" for="BoxID">ASP/FDR Date</label>
+
+                        <div class="input-group date"  >
+                           <input style="color:black;font-size:13px;" data-date-format="dd-mm-yyyy" id="aspfdr" name="aspfdr"  type="text" style="color:black;" class="form-control" readonly>
+                           <span class="input-group-addon date_icon">
+                              <i class="fa fa-calendar" aria-hidden="true"></i>
+                           </span>
+                        </div>
+
+
+                        </div>
+
+                        <div class="form-group col-lg-3">
+                        <label style="font-size:12px;" for="CallID">Call ID</label>
+                        <input type="text" value="{{ClaimsTracker.Call_Id|none_to_empty}}" style="color:black;font-size:13px;" class="form-control" id="CallID" name="CallID" placeholder="">
+                        </div>
+
+                        <div class="form-group col-lg-3">
+                        <label style="font-size:12px;" for="detailed">Detailed issue of the product</label>
+                        <input type="text" value="{{ClaimsTracker.Detailed_Issue_Product|none_to_empty}}"  style="color:black;font-size:13px;" class="form-control" id="detailed" name="detailed" placeholder="">
+                        </div>
+
+                  </div>
+
+                   <button type="button" style="border-width: 1px; font-size:12px;" onclick="prevSection('sectionD', 'sectionC')">Previous</button>
+                    <button type="button" style="border-width: 1px; font-size:12px;" onclick="nextSection('sectionD', 'sectionE')">Next</button>
+
+              </div>
+
+
+              <div id="sectionE" style="display: none;">
+
+
+
+                   <div class="form-row ">
+
+                        <div class="form-group col-lg-3">
+                          <label style="font-size:12px;"  for="PRFNo">PRF No</label>
+                          <input type="text" style="color:black;font-size:13px;" class="form-control" value="{{ClaimsTracker.PRF_Num|none_to_empty}}"  id="PRFNo" name="PRFNo" placeholder="">
+                        </div>
+
+                        <div class="form-group col-lg-3">
+                        <label style="font-size:12px;" for="RR">RR #</label>
+                        <input type="text" style="color:black;font-size:13px;" class="form-control" value="{{ClaimsTracker.RR_Num|none_to_empty}}"   id="RR" name="RR" placeholder="">
+                        </div>
+
+                       <div class="form-group col-lg-3">
+                       <label style="font-size:12px;" for="RRdate">RR date</label>
+                        <div class="input-group date"  >
+                              <input style="color:black;font-size:13px;" data-date-format="dd-mm-yyyy" id="RRdate" name="RRdate"  type="text" style="color:black;" class="form-control" readonly>
+                              <span class="input-group-addon date_icon">
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                              </span>
+                            </div>
+                       </div>
+
+                       <div class="form-group col-lg-3">
+                          <label style="font-size:12px;" for="unitcollection">Unit collection Date</label>
+                          <div class="input-group date"  >
+                              <input style="color:black;font-size:13px;" data-date-format="dd-mm-yyyy" id="unitcollection" name="unitcollection"  type="text" style="color:black;" class="form-control" readonly>
+                              <span class="input-group-addon date_icon">
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                              </span>
+                          </div>
+                       </div>
+
+                    </div>
+
+                   <div class="form-row ">
+
+                        <div class="form-group col-lg-3">
+                          <label style="font-size:12px;"  for="CM">CM #</label>
+                          <input type="text" style="color:black;font-size:13px;" class="form-control" value="{{ClaimsTracker.CM_Num|none_to_empty}}" id="CM" name="CM" placeholder="">
+                        </div>
+
+                        <div class="form-group col-lg-3">
+                          <label style="font-size:12px;"  for="CMAMOUNT">CM AMOUNT</label>
+                          <input type="text" style="color:black;font-size:13px;" class="form-control" value="{{ClaimsTracker.CM_Amount|none_to_empty}}" id="CMAMOUNT" name="CMAMOUNT" placeholder="">
+                        </div>
+
+                   </div>
+
+                    <button type="button" style="border-width: 1px; font-size:12px;" onclick="prevSection('sectionE', 'sectionD')">Previous</button>
+                    <button type="button" style="border-width: 1px; font-size:12px;" onclick="nextSection('sectionE', 'sectionF')">Next</button>
+
+              </div>
+
+
+
+              <div id="sectionF" style="display: none;">
+
+
+                  <div class="form-row ">
+
+                        <div class="form-group col-lg-3">
+                          <label style="font-size:12px;"  for="RPO">RPO#</label>
+                          <input type="text" style="color:black;font-size:13px;" value="{{ClaimsTracker.RPO_Num|none_to_empty}}"   class="form-control" id="RPO" name="RPO" placeholder="">
+                        </div>
+
+                       <div class="form-group col-lg-3">
+                       <label style="font-size:12px;" for="RPODATE">RPO Date</label>
+                        <div class="input-group date"  >
+                              <input style="color:black;font-size:13px;" data-date-format="dd-mm-yyyy" id="RPODATE" name="RPODATE"  type="text" style="color:black;" class="form-control" readonly>
+                              <span class="input-group-addon date_icon">
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                              </span>
+                            </div>
+                        </div>
+
+                       <div class="form-group col-lg-3">
+                       <label style="font-size:12px;" for="grndate">GRN Date</label>
+                        <div class="input-group date"  >
+                              <input style="color:black;font-size:13px;" data-date-format="dd-mm-yyyy" id="grndate" name="grndate"  type="text" style="color:black;" class="form-control" readonly>
+                              <span class="input-group-addon date_icon">
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                              </span>
+                            </div>
+                        </div>
+
+                       <div class="form-group col-lg-3">
+                          <label style="font-size:12px;"  for="dhl">DHL AWB #</label>
+                          <input type="text" style="color:black;font-size:13px;" class="form-control" value="{{ClaimsTracker.DHL_AWB_Num|none_to_empty}}"  id="dhl" name="dhl" placeholder="">
+                        </div>
+                  </div>
+
+
+                  <div class="form-row ">
+
+                      <div class="form-group col-lg-3">
+                         <div class="row">
+                         <label style="font-size:12px;margin-left:20px;" for="FORWARDERCODE">Forwarder Code</label>
+                         </div>
+                         <div class="row">
+                         <div class="col-md-12" style="margin-left:2px;">
+                         <select name="FORWARDERCODE" id="FORWARDERCODE" style="width:220px;border: 1px solid #FF0000;height:100px" class="form-control select2">
+                             <option value="" selected></option>
+                             {% for ForwarderCode in ForwarderCodes %}
+                                    {% if ForwarderCode|cut:" " == ClaimsTracker.Forwarder_Code|cut:" " %}
+                                    <option value="{{ForwarderCode}}" selected>{{ForwarderCode}}</option>
+                                    {% else %}
+                                    <option value="{{ForwarderCode }}">{{ForwarderCode}}</option>
+                                    {% endif %}
+                            {% endfor %}
+                         </select>
+                         </div>
+                         </div>
+                      </div>
+
+
+                      <div class="form-group col-lg-3">
+                         <div class="row">
+                         <label style="font-size:12px;margin-left:20px;" for="ClaimsStatus">Claims Status</label>
+                         </div>
+
+                         <div class="row">
+                             <div class="col-md-12" style="margin-left:2px;">
+                             <select name="ClaimsStatus" id="ClaimsStatus" style="width:220px;border: 1px solid #FF0000;height:100px" class="form-control select2">
+                                <option value="" selected></option>
+                                 {% for ClaimsStatus in ClaimsStatuss %}
+                                    {% if ClaimsStatus|cut:" " == ClaimsTracker.Claims_Status|cut:" " %}
+                                    <option value="{{ClaimsStatus}}" selected>{{ClaimsStatus}}</option>
+                                    {% else %}
+                                    <option value="{{ClaimsStatus}}">{{ClaimsStatus}}</option>
+                                    {% endif %}
+                                {% endfor %}
+                             </select>
+                             </div>
+                         </div>
+                      </div>
+
+                      <div class="form-group col-lg-3">
+                         <div class="row">
+                             <label style="font-size:12px;margin-left:15px;" for="AdditionalClaimsStatus">Additional Claims Status</label>
+                         </div>
+
+                         <div class="row">
+                             <div class="col-md-12" >
+                             <select name="AdditionalClaimsStatus" id="AdditionalClaimsStatus" style="width:220px;border: 1px solid #FF0000;height:100px" class="form-control select2">
+                               <option value="" selected></option>
+                                 {% for AdditionalClaimsStatus in AdditionalClaimsStatuss %}
+                                {% if AdditionalClaimsStatus|cut:" " == ClaimsTracker.AdditionalClaimsstatus|cut:" " %}
+                                    <option value="{{AdditionalClaimsStatus}}" selected>{{AdditionalClaimsStatus}}</option>
+                                    {% else %}
+                                    <option value="{{AdditionalClaimsStatus}}">{{AdditionalClaimsStatus}}</option>
+                                    {% endif %}
+                                {% endfor %}
+                             </select>
+                             </div>
+                         </div>
+                      </div>
+
+
+                      <div class="form-group col-lg-3">
+                          <label style="font-size:12px;margin-bottom:3px;"  for="Remarks">Remarks</label>
+                          <input type="text" style="color:black;font-size:13px;" class="form-control" id="Remarks" value="{{ClaimsTracker.Remarks|none_to_empty}}" name="Remarks" placeholder="">
+                      </div>
+
+                  </div>
+
+                  <div class="form-row ">
+
+                       <div class="form-group col-lg-3">
+                         <div class="row">
+                            <label style="font-size:12px;margin-left:20px;" >Status</label>
+                         </div>
+                         <div class="row">
+                             <div class="col-md-12" style="margin-left:0px;">
+                                    <select name="status" id="status" style="width:220px;border: 1px solid #FF0000;height:100px" class="form-control select2">
+                                        <option value="" selected></option>
+                                        {% for status in Statuss %}
+                                            {% if status|cut:" " == ClaimsTracker.Status|cut:" " %}
+                                            <option value="{{status}}" selected>{{status}}</option>
+                                            {% else %}
+                                            <option value="{{status}}">{{status}}</option>
+                                            {% endif %}
+                                        {% endfor %}
+                                    </select>
+                             </div>
+                          </div>
+                      </div>
+
+                  </div>
+
+
+                  <button type="button" style="border-width: 1px; font-size:12px;" onclick="prevSection('sectionF', 'sectionE')">Previous</button>
+                   <button type="button" style="border-width: 1px; font-size:12px;" onclick="nextSection('sectionF', 'sectionG')">Next</button>
+
+              </div>
+
+
+             <div id="sectionG" style="display: none;">
+
+
+
+                  <div class="form-row ">
+
+                        <div class="form-group col-lg-3">
+                          <label style="font-size:12px;"  for="cnno">CN No</label>
+                          <input type="text" style="color:black;font-size:13px;" value="{{ClaimsTracker.CN_No|none_to_empty}}" class="form-control" id="cnno" name="cnno" placeholder="">
+                        </div>
+
+                       <div class="form-group col-lg-3">
+                       <label style="font-size:12px;" for="cndate">CN Date</label>
+                        <div class="input-group date"  >
+                              <input style="color:black;font-size:13px;" data-date-format="dd-mm-yyyy" id="cndate" name="cndate"  type="text" style="color:black;" class="form-control" readonly>
+                              <span class="input-group-addon date_icon">
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                              </span>
+                            </div>
+                        </div>
+
+                       <div class="form-group col-lg-3">
+                          <label style="font-size:12px;"  for="cnno">CN Value</label>
+                          <input type="text" style="color:black;font-size:13px;" value="{{ClaimsTracker.CN_Value|none_to_empty}}" class="form-control" id="cnvalue" name="cnvalue" placeholder="">
+                        </div>
+
+                  </div>
+
+                  <button type="button" style="border-width: 1px; font-size:12px;" onclick="prevSection('sectionG', 'sectionF')">Previous</button>
+                  <button type="button" style="border-width: 1px; font-size:12px;" onclick="nextSection('sectionG', 'sectionH')">Next</button>
+
+             </div>
+
+
+              <div id="sectionH" style="display: none;">
+
+                  <div class="form-row ">
+
+                        <div class="form-group col-lg-3">
+                          <label style="font-size:12px;"  for="ca">CA=CA</label>
+                          <input type="text" value="{{ClaimsTracker.CA|none_to_empty}}" style="color:black;font-size:13px;" class="form-control" id="ca" name="ca" placeholder="">
+                        </div>
+
+                       <div class="form-group col-lg-3">
+                          <label style="font-size:12px;"  for="ageing">Ageing days</label>
+                          <input type="text" value="{{ClaimsTracker.Ageingdays|none_to_empty}}" style="color:black;font-size:13px;" class="form-control" id="ageing" name="ageing" placeholder="">
+                        </div>
+
+                      <div class="form-group col-lg-3">
+                          <div class="row" >
+                            <div class="col" style="margin-top:25px;">
+                            <button type="submit" style="font-size:9px; margin-top:5px; background-color:green;color:white;width:50px;height:25px;padding-right:70px;padding-bottom:20px;" class="btn btn-success">Update</button>
+                            </div>
+                          </div>
+                      </div>
+
+                  </div>
+
+                  <button type="button" style="border-width: 1px; font-size:12px;" onclick="prevSection('sectionH', 'sectionG')">Previous</button>
+
+              </div>
+
+
+          </form>
+
+            <br><br>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+        <!-- Container Fluid-->
+        <div class="container-fluid" id="container-wrapper">
+
+
+          <!-- Modal Logout -->
+          <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabelLogout"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabelLogout"></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Are you sure you want to logout?</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Cancel</button>
+                  <a href="{% url 'physicalclaims:logout'  %}" class="btn btn-primary">Logout</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!---Container Fluid-->
+      </div>
+
+
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>copyright &copy; <script> document.write(new Date().getFullYear()); </script> - developed by
+              <b><a href="https://indrijunanda.gitlab.io/" target="_blank">IT-Support</a></b>
+            </span>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Footer -->
+    </div>
+  </div>
+
+   <!-- Scroll to top -->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+
+  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+  <script src="{% static 'js/ruang-admin.min.js' %}"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+
+  <script src="{% static 'new/js/custom.js' %}"></script>
+
+
+<!-- Include Select2 JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+
+<script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
+
+<script>
+
+    new DataTable('#example', {
+    pagingType: 'simple_numbers'
+});
+
+
+</script>
+
+
+<script>
+    $('.select2').select2();
+</script>
+
+
+  <script>
+        $(function () {
+            $("#claimdate").datepicker({
+                autoclose: true,
+                todayHighlight: true,
+                format: 'dd-mm-yyyy'
+            }).datepicker('update', '{{formatted_ClaimedDate}}');
+        });
+
+
+
+         $(function () {
+            $("#customerreqdate").datepicker({
+                autoclose: true,
+                todayHighlight: true,
+                format: 'dd-mm-yyyy'
+            }).datepicker('update', '{{formatted_customerrequestdate}}');
+        });
+
+         $(function () {
+            $("#Redingtoninvoicedate").datepicker({
+                autoclose: true,
+                todayHighlight: true,
+                format: 'dd-mm-yyyy'
+            }).datepicker('update', '{{formatted_RedingtonInvoiceDate}}');
+        });
+
+        $(function () {
+            $("#aspfdr").datepicker({
+                autoclose: true,
+                todayHighlight: true,
+                format: 'dd-mm-yyyy'
+            }).datepicker('update', '{{formatted_aspfdrdate}}');
+        });
+
+
+        $(function () {
+            $("#Duedate").datepicker({
+                autoclose: true,
+                todayHighlight: true,
+                format: 'dd-mm-yyyy'
+            }).datepicker('update', '{{formatted_duedateexpirydate}}');
+        });
+
+
+        $(function () {
+            $("#ecidatenew").datepicker({
+                autoclose: true,
+                todayHighlight: true,
+                format: 'dd-mm-yyyy'
+            }).datepicker('update', '{{formatted_ecidate}}');
+        });
+
+         $(function () {
+            $("#RRdate").datepicker({
+                autoclose: true,
+                todayHighlight: true,
+                format: 'dd-mm-yyyy'
+            }).datepicker('update', '{{formatted_RR_Date}}');
+        });
+
+         $(function () {
+            $("#unitcollection").datepicker({
+                autoclose: true,
+                todayHighlight: true,
+                format: 'dd-mm-yyyy'
+            }).datepicker('update', '{{formatted_Unit_Collection_Date}}');
+        });
+
+         $(function () {
+            $("#RPODATE").datepicker({
+                autoclose: true,
+                todayHighlight: true,
+                format: 'dd-mm-yyyy'
+            }).datepicker('update', '{{formatted_RPO_Date}}');
+        });
+
+         $(function () {
+            $("#grndate").datepicker({
+                autoclose: true,
+                todayHighlight: true,
+                format: 'dd-mm-yyyy'
+            }).datepicker('update', '{{formatted_GRN_Date}}');
+        });
+
+         $(function () {
+            $("#cndate").datepicker({
+                autoclose: true,
+                todayHighlight: true,
+                format: 'dd-mm-yyyy'
+            }).datepicker('update', '{{formatted_CN_Date}}');
+        });
+
+
+  </script>
+
+  <script>
+    function nextSection(currentSectionId, nextSectionId) {
+        document.getElementById(currentSectionId).style.display = 'none';
+        document.getElementById(nextSectionId).style.display = 'block';
+
+         // Update progress steps
+        const currentStep = document.querySelector(`.progress-step.completed`);
+        const nextStep = currentStep.nextElementSibling;
+
+        if (nextStep) {
+            currentStep.classList.remove('completed');
+            nextStep.classList.add('completed');
+        }
+
+    }
+
+    function prevSection(currentSectionId, prevSectionId) {
+        document.getElementById(currentSectionId).style.display = 'none';
+        document.getElementById(prevSectionId).style.display = 'block';
+
+        const currentStep = document.querySelector(`.progress-step.completed`);
+        const prevStep = currentStep.previousElementSibling;
+
+        if (prevStep) {
+            currentStep.classList.remove('completed');
+            prevStep.classList.add('completed');
+        }
+    }
+</script>
+
+<script>
+
+    function validateForm() {
+    alert("helloworld")
+    return true;
+    }
+
+</script>
+
+
+<style>
+
+        #dt-search-0  {
+
+}
+
+
+</style>
+
+
+
+</body>
+
+</html>
